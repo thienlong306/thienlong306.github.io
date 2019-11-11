@@ -95,9 +95,15 @@ a {
     visibility: visible;
     opacity: 1;
 }
-
-.Left {
+.Mid {
+    display: flex;
     margin-top:50px ;
+    margin-left:150px;
+
+    
+}
+.Left {
+
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -107,7 +113,7 @@ a {
     align-items: center;
  
 }
-.Top .Left ul {
+ .Left ul {
     list-style: none;
     font-family: segoe ui;
     font-weight: bold;
@@ -117,16 +123,70 @@ a {
     cursor: pointer;
 }
 
-.Top .Left ul li a {
+ .Left ul li a {
     color: black;
     padding-left: 32px;
 
     
 }
 
-.Top .Left ul li a:hover {
+ .Left ul li a:hover {
     padding-left: 0;
     padding-left: 30px ;
     border-left: 2px solid red;
     color: red;
 }
+
+ .Right {
+     display: block;
+     margin-left: 20px;
+ }
+ 
+ .Right .Type{ 
+    font-family: segoe ui light;
+ } 
+ .Right .Banh{
+     display: flex;
+     width: 800px ;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .Right .Banh .LoaiBanh {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    border-radius: 5px;
+    margin-top:20px;
+
+ }
+
+ .Right .Banh .LoaiBanh .thongtinbanh {
+     font-size: 14px;
+     margin-left: 10px;
+     font-family: segoe ui light;
+ }
+
+ .Right .Banh .LoaiBanh .them {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 33px;
+    width: 192px;
+    border-radius:4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    font-family: segoe ui light;
+    font-weight: bold;
+ }
+
+ .Right .Banh .LoaiBanh img{ 
+    width: 250px;
+ }
+
+
+
