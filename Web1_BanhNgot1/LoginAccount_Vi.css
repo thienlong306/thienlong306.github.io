@@ -1,0 +1,43 @@
+:root {
+    --font1:segoe ui light;
+}
+.centerScreen .TTLG {
+    display:flex;
+    height: 40px;
+    text-align: end;
+}
+
+div center h2 {
+    font-family: var(--font1);
+    height: 30px;
+}
+
+.centerScreen .TTLG .TK{
+    width: 46%;
+}
+
+.TTDN {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 33px;
+    width: 192px;
+    border-radius:4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    font-family: segoe ui light;
+    font-weight: bold;
+    color:black;
+}
+
+.dangky {
+    font-family: var(--font1);
+    
+}
+
+.dangky a {
+    font-weight: bolder;
+}
