@@ -1,4 +1,4 @@
-// projects filter items
+
 const filterContainer = document.querySelector('.project-filter'),
   filterBtn = filterContainer.children,
   totalFilterBtn = filterBtn.length,
@@ -78,3 +78,12 @@ for (var i = 0; i < darkmode.length; i++) {
     }
   });
 }
+
+function onClick() {
+  const doc = new jsPDF();
+  doc.text(document.body);
+  doc.save("a4.pdf");
+};
+
+var element = document.getElementById("clickbind");
+element.addEventListener("click", onClick);
