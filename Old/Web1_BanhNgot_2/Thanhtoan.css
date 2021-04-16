@@ -1,0 +1,78 @@
+:root {
+    --font1:'Roboto', sans-serif;
+}
+
+*{
+    font-family: var(--font1);
+}
+.Thongtin {
+    margin-left: ;
+    margin-left: 14%;
+}
+
+.Thongtin h1 {
+    font-family: var(--font1);
+
+}
+
+.Thongtin .Chitiet{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 80%;
+    height: 320px;
+    
+    padding: 20px 30px;
+}
+.Thongtin .Chitiet .thongtinkhachhang{
+    display: flex;
+    border-bottom:1px solid black;
+}
+.Thongtin .Chitiet .Pickup ul{}
+.Thongtin .Chitiet .Pickup ul li{
+    list-style: none;
+}
+
+.Thongtin .Chitiet .Time {
+    margin-top:1%;
+    border:1px solid black;
+}
+.Thongtin .Chitiet .Time .thongtindonhang{}
+.Thongtin .Chitiet .Time .thongtindonhang ul{
+    display: flex;
+    align-items: center;
+}
+.Thongtin .Chitiet .Time .thongtindonhang ul li{
+    list-style: none;
+    width: 50%;
+
+}
+.Thongtin .Chitiet .Time .thongtindonhang ul li img{
+    width: 30%;
+    border-right: 1px solid black;
+    padding-right:10px ;
+}
+.TTDN {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 33px;
+    width: 192px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-family: segoe ui light;
+    font-weight: bold;
+    color:black;
+    margin-top:1%;
+
+}
+.fa-check-circle {
+    
+}
+
+
+    

@@ -1,0 +1,91 @@
+.Menukhachhang {
+
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    border-radius: 5px;
+    width: 250px;
+    height: 180px;
+    margin-left: 14%;
+}
+ .Menukhachhang ul {
+    list-style: none;
+    font-family: segoe ui;
+    line-height: 40px;
+    font-weight: bold;
+    color: black;
+    padding-left: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ .Menukhachhang ul li a {
+    color: black;
+    padding-left: 32px;  
+}
+
+ .Menukhachhang ul li a:hover {
+    padding-left: 0;
+    padding-left: 30px ;
+    border-left: 2px solid red;
+    color: red;
+}
+.Menukhachhang ul .Main{
+    padding-left: 0;
+    padding-left: 30px ;
+    border-left: 2px solid red;
+    color: red;
+}
+.Sodiachi {
+    display: flex;
+    margin-top:65px;
+    
+}
+.Sodiachi .diachikhachhang {
+    margin-left: 2%;
+    font-family: var(--font1);
+}
+.Sodiachi .diachikhachhang h1{
+    font-family: var(--font1);
+}
+.Sodiachi .diachikhachhang {} 
+
+.Sodiachi .diachikhachhang .thongtindiachi{
+    text-align: center;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    border-radius: 5px;
+    width: 190%;
+    height: 100%;
+
+} 
+
+.Sodiachi .diachikhachhang .thongtindiachi .thongtintaikhoan ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.Sodiachi .diachikhachhang .thongtindiachi .thongtintaikhoan ul li{
+   width: 17%;
+   border: 1px solid black;
+    padding-top:5px;
+   font-family: var(--font1);
+
+ 
+}
+.Sodiachi .diachikhachhang .thongtindiachi .thongtintaikhoan ul li img {
+    width: 30%;
+}
+.themsanpham {
+display: flex;
+}
+.themsanpham a h1 {
+    color: black;
+    text-align: right;
+}
+.plus {
+    color: black;
+}

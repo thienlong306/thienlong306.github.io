@@ -1,0 +1,40 @@
+.container {
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  fon
+}
+.pagination {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.pagination a {
+  display: block;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  justify-content: space-between;
+}
+ 
+.pagination a.active {
+border:1px solid black;
+}
+ 
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+
+}
+.thongtincuoi{
+  margin-top:5%;
+  display: flex;
+  font-family: segoe ui ;
+  width: 75%;
+  margin: auto;
+}
+.thongtincuoi .dieukhoan{}
+.thongtincuoi .admin{
+  margin-left: auto;
+}
