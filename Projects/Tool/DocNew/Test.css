@@ -26,9 +26,14 @@ textarea {
     box-sizing: border-box;
 }
 .input {
+    flex-wrap: wrap;
+    display: flex;
     width: 100%;
-    text-align: center;
     margin-top: 2%;
+    justify-content: center;
+}
+.box {
+    display: flex;
 }
 .exemple{
     width: 100%;
@@ -38,5 +43,10 @@ textarea {
 @media screen and (max-width:800px) {
     body,html{
         overflow: visible;
+    }
+    .input {
+       display: grid;
+   
+  
     }
 }
