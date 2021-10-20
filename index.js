@@ -14,7 +14,7 @@ var listContact = [
         content: "0886869244",
     },
     {
-        icon: "Email.svg",
+        icon: "email.svg",
         content: "phandongthienlong306@gmail.com",
     },
     {
