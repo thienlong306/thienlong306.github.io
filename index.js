@@ -17,15 +17,15 @@ var listContact = [
     },
     {
         icon: "Phone.svg",
-        content: "0886869244",
+        content: `<a href="tel:0886869244">0886869244</a>`,
     },
     {
         icon: "email.svg",
-        content: "phandongthienlong306@gmail.com",
+        content: `<a href="mailto:phandongthienlong306@gmail.com">phandongthienlong306@gmail.com</a>`,
     },
     {
         icon: "github.svg",
-        content: "https://github.com/thienlong306",
+        content: `<a href="https://github.com/thienlong306">https://github.com/thienlong306</a>`,
     },
 ]
 var listSkill = [

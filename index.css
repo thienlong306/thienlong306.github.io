@@ -15,7 +15,13 @@ html, body {
     width: 100%;
     overflow-x: hidden;
 }
-
+a {
+    color: rgba(255, 255, 255, 0.54);
+}
+a:hover {
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+}
 /* end CV */
 
 .LeftCol {
