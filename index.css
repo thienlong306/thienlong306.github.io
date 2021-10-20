@@ -272,6 +272,9 @@ div#listInterestes {
     .print{
         display: none!important;
     }
+    a{
+        text-decoration: none!important;
+    }
 }
 /* end mobile */
 
