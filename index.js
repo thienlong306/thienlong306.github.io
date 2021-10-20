@@ -1,5 +1,11 @@
 var imgMySeft = document.getElementById("avatar");
-var about = "Mong muốn có thể trở thành một Fullstack Developer trong tương lai.";
+var about = [
+    {
+        name: "Phan Đồng Thiên Long",
+        department: "Software Developer",
+        about: "Mong muốn có thể trở thành một Fullstack Developer trong tương lai.",
+    }
+];
 var listContact = [
     {
         icon: "Account_circle.svg",
@@ -51,52 +57,52 @@ var listSkill = [
 var lastSkill = "Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).";
 var listEducation = [
     {
-        name:"Trường Đại Học Sài Gòn",
-        time:"2018-now",
-        description:"Học ngành Công Nghệ Thông Tin",
+        name: "Trường Đại Học Sài Gòn",
+        time: "2018-now",
+        description: "Học ngành Công Nghệ Thông Tin",
     },
 ]
 var listInterestes = [
     {
-        name:"Chơi Game",
-        time:"",
-        description:"",
+        name: "Chơi Game",
+        time: "",
+        description: "",
     },
     {
-        name:"Xem Phim",
-        time:"",
-        description:"",
+        name: "Xem Phim",
+        time: "",
+        description: "",
     },
     {
-        name:"Code",
-        time:"",
-        description:"",
+        name: "Code",
+        time: "",
+        description: "",
     },
     {
-        name:"Thiết kế",
-        time:"",
-        description:"",
+        name: "Thiết kế",
+        time: "",
+        description: "",
     },
     {
-        name:"Board Game",
-        time:"",
-        description:"",
+        name: "Board Game",
+        time: "",
+        description: "",
     },
 ]
 var listProject = [
     {
-        name:"Quản Lý Tour Du Lịch",
-        time:"Java",
-        description:"https://github.com/thienlong306/QuanLyTourDuLich_XDMHPL",
+        name: "Quản Lý Tour Du Lịch",
+        time: "Java",
+        description: "https://github.com/thienlong306/QuanLyTourDuLich_XDMHPL",
     },
     {
-        name:"Website Bán Hoa Tươi",
-        time:"PHP",
-        description:"https://github.com/thienlong306/WebsiteBanHoa",
+        name: "Website Bán Hoa Tươi",
+        time: "PHP",
+        description: "https://github.com/thienlong306/WebsiteBanHoa",
     },
 ]
 // end data
-imgMySeft.style.backgroundImage="url('img/picMySeft.jpg')";
+imgMySeft.style.backgroundImage = "url('img/picMySeft.jpg')";
 // end img
 for (let index = 0; index < listEducation.length; index++) {
     var input = ` 
@@ -157,8 +163,9 @@ for (let index = 0; index < listProject.length; index++) {
 }
 // end Project
 var element = document.createElement('span');
-element.className = "about";
-element.innerHTML = about;
+element.innerHTML = `<h1>${about[0].name}</h1>
+<div class="description">${about[0].department}</div>
+<span class="about">${about[0].about}</span>`;
 var inputAbout = document.getElementById("Tittle");
 inputAbout.appendChild(element);
 // end about

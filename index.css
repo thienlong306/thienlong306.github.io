@@ -133,8 +133,25 @@ html, body {
     float: right;
     padding: 10px 20px;
 }
+.head {
+    display: flex;
+}
 
+.print {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
 .CV .RightCol .Tittle {
+    width: 50%;
     padding: 0 13px;
     /* color: #3c3c3c; */
 }
@@ -211,7 +228,7 @@ div#listInterestes {
 /* end righcol */
 
 @media only screen and (max-width:1000px) {
-    .CV, .showLeft, .showRight {
+    .CV, .showLeft, .showRight,.Tittle,.print  {
         width: auto !important;
         float: none !important;
     }
@@ -221,14 +238,35 @@ div#listInterestes {
     .RightCol {
         width: 67% !important;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .CV, .LeftCol, .RightCol, .showLeft, .showRight {
-        width: 100% !important;
+    .head{
+        display: block!important;
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .CV, .LeftCol, .RightCol, .showLeft, .showRight{
+        width: 100% !important;
+    }
+
+}
+@media print {
+    .CV, .showLeft, .showRight,.Tittle,.print  {
+        width: auto !important;
+        float: none !important;
+    }
+    .LeftCol {
+        width: 33% !important;
+    }
+    .RightCol {
+        width: 67% !important;
+    }
+    .head{
+        display: block!important;
+    }
+    .print{
+        display: none!important;
+    }
+}
 /* end mobile */
 
 /* .CV.Print{
