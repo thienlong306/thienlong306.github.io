@@ -163,7 +163,7 @@ for (let index = 0; index < listProject.length; index++) {
     <div class="headline">${listProject[index].name}</div>
                     <div class="subheadline">${listProject[index].time}</div>
                     <div class="info">
-                    ${listProject[index].description}
+                    <a style="color:#212529" href="${listProject[index].description}">${listProject[index].description}</a>
                     </div>`
     var element = document.createElement('div');
     element.className = "block";
