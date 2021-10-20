@@ -134,7 +134,7 @@ lastSkill.appendChild(element);
 for (let index = 0; index < listContact.length; index++) {
     var input = `
     <div class="icon"><img src="img/${listContact[index].icon}" alt="" class="filter"></div>
-    <div class="text">${listContact[index].content}</div>`
+    <div class="text"><span>${listContact[index].content}</span></div>`
     var element = document.createElement('div');
     element.className = "item";
     element.innerHTML = input;
@@ -175,3 +175,4 @@ for (let index = 0; index < listInterestes.length; index++) {
     var getListSkill = document.getElementById("listInterestes");
     getListSkill.appendChild(element);
 }
+// end listInterestes
