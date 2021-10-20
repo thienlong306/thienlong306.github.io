@@ -105,6 +105,11 @@ var listProject = [
         time: "PHP",
         description: "https://github.com/thienlong306/WebsiteBanHoa",
     },
+    {
+        name: "Quản Lý Bán Hàng Thời Trang",
+        time: "Java",
+        description: "https://github.com/thienlong306/Quan_Ly_Ban_Hang_Thoi_Trang",
+    },
 ]
 // end data
 imgMySeft.style.backgroundImage = "url('img/picMySeft.jpg')";
