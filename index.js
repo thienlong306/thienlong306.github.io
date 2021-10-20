@@ -54,7 +54,7 @@ var listSkill = [
         progress: "80",
     }
 ]
-var lastSkill = "Also proficient in Adobe Photoshop and Illustrator, grew up bilingual English.";
+var lastSkill = "Also proficient in Adobe Photoshop and Illustrator, English.";
 var listEducation = [
     {
         name: "Trường Đại Học Sài Gòn",
