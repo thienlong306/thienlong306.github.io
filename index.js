@@ -1,4 +1,5 @@
-var imgMySeft = document.getElementById("avatar");
+document.getElementById("avatar").style.backgroundImage = "url('img/picMySeft.jpg')";
+// end img
 var about = [
     {
         name: "Phan Đồng Thiên Long",
@@ -117,8 +118,6 @@ var listProject = [
     },
 ]
 // end data
-imgMySeft.style.backgroundImage = "url('img/picMySeft.jpg')";
-// end img
 for (let index = 0; index < listEducation.length; index++) {
     var input = ` 
     <div class="headline">${listEducation[index].name}</div>
