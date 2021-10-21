@@ -152,7 +152,7 @@ a:hover {
 }
 
 button {
-    margin: 0 5px;
+    margin: 5px;
     cursor: pointer;
     width: 200px;
     height: 50px;
