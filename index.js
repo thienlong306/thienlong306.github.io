@@ -27,6 +27,10 @@ var listContact = [
         icon: "github.svg",
         content: `<a href="https://github.com/thienlong306">https://github.com/thienlong306</a>`,
     },
+    {
+        icon: "facebook-square.svg",
+        content: `<a href="https://facebook.com/thienlong306">https://facebook.com/thienlong306</a>`,
+    },
 ]
 var listSkill = [
     {
@@ -54,7 +58,7 @@ var listSkill = [
         progress: "80",
     }
 ]
-var lastSkill = "Also proficient in Adobe Photoshop and Illustrator, English.";
+var lastSkill = "Also proficient in Figma, Illustrator, English.";
 var listEducation = [
     {
         name: "Trường Đại Học Sài Gòn",
