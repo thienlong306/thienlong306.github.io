@@ -51,7 +51,7 @@ var listSkill = [
         progress: "90",
     },
     {
-        name: "MySQL",
+        name: "SQL",
         progress: "80",
     },
     {
