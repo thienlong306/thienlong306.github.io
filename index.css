@@ -251,7 +251,7 @@ div#listInterestes {
 }
 
 @media only screen and (max-width: 600px) {
-    .CV, .LeftCol, .RightCol, .showLeft, .showRight{
+    .CV, .LeftCol, .RightCol, .showLeft, .showRight,[class*="time"]::after{
         width: 100% !important;
     }
 

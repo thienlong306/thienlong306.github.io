@@ -103,18 +103,24 @@ var listInterestes = [
 var listProject = [
     {
         name: "Quản Lý Tour Du Lịch",
-        time: "Java",
-        description: "https://github.com/thienlong306/QuanLyTourDuLich_XDMHPL",
-    },
-    {
-        name: "Website Bán Hoa Tươi",
-        time: "PHP",
-        description: "https://github.com/thienlong306/WebsiteBanHoa",
+        language: "Java",
+        time:"13/3-15/3/2021",
+        description: "Xây dựng ứng dụng theo mô hình 3 lớp. Quản lý tour, đoàn, khách hàng, nhân viên, chi phí, địa điểm, trình trạng đoàn và thống kê.",
+        link:"https://github.com/thienlong306/QuanLyTourDuLich_XDMHPL",
     },
     {
         name: "Quản Lý Bán Hàng Thời Trang",
-        time: "Java",
-        description: "https://github.com/thienlong306/Quan_Ly_Ban_Hang_Thoi_Trang",
+        language: "Java",
+        time:"1/6-24/6/2020",
+        description: "Xây dựng các chức năng thêm, xóa , sửa, tìm kiếm, in phiếu hóa đơn, nhập và xuất file excel.",
+        link:"https://github.com/thienlong306/Quan_Ly_Ban_Hang_Thoi_Trang",
+    },
+    {
+        name: "Website Bán Hoa Tươi",
+        language: "PHP",
+        time:"20/5-17/6/2020",
+        description: "Xây dựng các tính năng cơ bản của một website bán hàng bằng PHP.",
+        link:"https://github.com/thienlong306/WebsiteBanHoa",
     },
 ]
 // end data
@@ -164,11 +170,18 @@ for (let index = 0; index < listContact.length; index++) {
 // end Contact
 for (let index = 0; index < listProject.length; index++) {
     var input = ` 
-    <div class="headline">${listProject[index].name}</div>
-                    <div class="subheadline">${listProject[index].time}</div>
+    <div class="headline time${index}" >${listProject[index].name}</div>
+                    <div class="subheadline">${listProject[index].language}</div>
                     <div class="info">
-                    <a style="color:#212529" href="${listProject[index].description}">${listProject[index].description}</a>
-                    </div>`
+                    <div>Mô tả: ${listProject[index].description}</div>
+                    <a style="color:#969696" onmouseover="this.style.color='#252525'" onmouseout="this.style.color='#969696'"  href="${listProject[index].link}">${listProject[index].link}</a>
+                    </div>
+    <style>
+    .headline.time${index}::after {
+        content: "${listProject[index].time}";
+        float: right;
+    }
+    </style>`
     var element = document.createElement('div');
     element.className = "block";
     element.innerHTML = input;
