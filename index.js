@@ -74,16 +74,6 @@ var listInterestes = [
         description: "",
     },
     {
-        name: "Xem Phim",
-        time: "",
-        description: "",
-    },
-    {
-        name: "Code",
-        time: "",
-        description: "",
-    },
-    {
         name: "Thiết kế",
         time: "",
         description: "",
