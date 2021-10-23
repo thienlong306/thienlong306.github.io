@@ -64,17 +64,18 @@ var listEducation = [
     {
         name: "Trường Đại Học Sài Gòn",
         time: "2018-now",
-        description: "Học ngành Công Nghệ Thông Tin",
+        department:"Công nghệ thông tin",
+        description: "Học chuyên ngành Kỹ Thuật Phần Mềm.",
     },
 ]
 var listInterestes = [
     {
-        name: "Chơi Game",
+        name: "Game",
         time: "",
         description: "",
     },
     {
-        name: "Thiết kế",
+        name: "Design",
         time: "",
         description: "",
     },
@@ -116,11 +117,17 @@ var listProject = [
 // end data
 for (let index = 0; index < listEducation.length; index++) {
     var input = ` 
-    <div class="headline">${listEducation[index].name}</div>
-                    <div class="subheadline">${listEducation[index].time}</div>
+    <div class="headline timeedu${index}" >${listEducation[index].name}</div>
+                    <div class="subheadline">${listEducation[index].department}</div>
                     <div class="info">
-                    ${listEducation[index].description}
-                    </div>`
+                    <div>${listEducation[index].description}</div>
+                    </div>
+    <style>
+    .headline.timeedu${index}::after {
+        content: "${listEducation[index].time}";
+        float: right;
+    }
+    </style>`
     var element = document.createElement('div');
     element.className = "block";
     element.innerHTML = input;
