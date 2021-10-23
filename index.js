@@ -171,7 +171,7 @@ for (let index = 0; index < listProject.length; index++) {
                     <div class="subheadline">${listProject[index].language}</div>
                     <div class="info">
                     <div>Mô tả: ${listProject[index].description}</div>
-                    <a style="color:#969696" onmouseover="this.style.color='#252525'" onmouseout="this.style.color='#969696'"  href="${listProject[index].link}">${listProject[index].link}</a>
+                    <a style="color:#969696;cursor:pointer" onmouseover="this.style.color='#252525'" onmouseout="this.style.color='#969696'" onclick="window.open('${listProject[index].link}','_blank')" ">${listProject[index].link}</a>
                     </div>
     <style>
     .headline.time${index}::after {
