@@ -260,9 +260,13 @@ div#listInterestes {
     .CV, .showLeft, .showRight,.Tittle,.print  {
         width: auto !important;
         float: none !important;
+        overflow: hidden;
     }
+ 
     .LeftCol {
         width: 33% !important;
+        height: 3508px !important;
+        overflow: hidden;
     }
     .RightCol {
         width: 67% !important;
