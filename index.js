@@ -55,7 +55,7 @@ var lastSkill = "Also proficient in Bootstrap, jQuery, Selenium, Figma, Illustra
 var listEducation = [
     {
         name: "Trường Đại Học Sài Gòn",
-        time: "2018-now",
+        time: "2018-Current",
         department:"Công nghệ thông tin",
         description: "Học chuyên ngành Kỹ Thuật Phần Mềm.",
     },
