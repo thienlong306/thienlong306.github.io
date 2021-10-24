@@ -35,16 +35,12 @@ var listContact = [
 ]
 var listSkill = [
     {
-        name: "HTML5/CSS3/JavaScript",
+        name: "HTML5/CSS3",
         progress: "90",
     },
     {
-        name: "Bootstrap",
+        name: "JavaScript",
         progress: "80",
-    },
-    {
-        name: "jQuery",
-        progress: "70",
     },
     {
         name: "Java",
@@ -53,13 +49,9 @@ var listSkill = [
     {
         name: "SQL",
         progress: "80",
-    },
-    {
-        name: "Selenium",
-        progress: "80",
     }
 ]
-var lastSkill = "Also proficient in Figma, Illustrator, English.";
+var lastSkill = "Also proficient in Bootstrap, jQuery, Selenium, Figma, Illustrator and English.";
 var listEducation = [
     {
         name: "Trường Đại Học Sài Gòn",
