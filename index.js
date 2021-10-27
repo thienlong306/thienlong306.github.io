@@ -3,7 +3,7 @@ document.getElementById("avatar").style.backgroundImage = "url('img/picMySeft.jp
 var about = [
     {
         name: "Phan Đồng Thiên Long",
-        department: "Software Developer",
+        department: "Nhà phát triển phần mềm",
         about: "Mong muốn có thể trở thành một Fullstack Developer trong tương lai.",
     }
 ];
@@ -51,11 +51,11 @@ var listSkill = [
         progress: "80",
     }
 ]
-var lastSkill = "Also proficient in Bootstrap, jQuery, Selenium, Figma, Illustrator and English.";
+var lastSkill = "Ngoài ra còn thành thạo Bootstrap, jQuery, Selenium, Figma, Illustrator và English.";
 var listEducation = [
     {
         name: "Trường Đại Học Sài Gòn",
-        time: "2018-Current",
+        time: "2018 - Hiện tại",
         department:"Công nghệ thông tin",
         description: "Học chuyên ngành Kỹ Thuật Phần Mềm.",
     },
@@ -67,7 +67,7 @@ var listInterestes = [
         description: "",
     },
     {
-        name: "Design",
+        name: "Thiết Kế",
         time: "",
         description: "",
     },
@@ -77,7 +77,7 @@ var listInterestes = [
         description: "",
     },
     {
-        name: "Music",
+        name: "Nhạc",
         time: "",
         description: "",
     },
@@ -87,21 +87,21 @@ var listProject = [
     {
         name: "Quản Lý Tour Du Lịch",
         language: "Java",
-        time:"13/3-15/3/2021",
+        time:"13/3 - 15/3/2021",
         description: "Xây dựng ứng dụng theo mô hình 3 lớp. Quản lý tour, đoàn, khách hàng, nhân viên, chi phí, địa điểm, trình trạng đoàn và thống kê.",
         link:"https://github.com/thienlong306/QuanLyTourDuLich_XDMHPL",
     },
     {
         name: "Quản Lý Bán Hàng Thời Trang",
         language: "Java",
-        time:"1/6-24/6/2020",
+        time:"1/6 - 24/6/2020",
         description: "Xây dựng các chức năng thêm, xóa , sửa, tìm kiếm, in phiếu hóa đơn, nhập và xuất file excel.",
         link:"https://github.com/thienlong306/Quan_Ly_Ban_Hang_Thoi_Trang",
     },
     {
         name: "Website Bán Hoa Tươi",
         language: "PHP",
-        time:"20/5-17/6/2020",
+        time:"20/5 - 17/6/2020",
         description: "Xây dựng các tính năng cơ bản của một website bán hàng bằng PHP.",
         link:"https://github.com/thienlong306/WebsiteBanHoa",
     },

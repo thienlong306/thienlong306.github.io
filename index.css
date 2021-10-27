@@ -43,7 +43,7 @@ a:hover {
 .LeftCol .Tittle {
     text-transform: uppercase;
     margin: 20px 0 15px 15px;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     font-size: 17px;
     font-weight: 700;
 }
