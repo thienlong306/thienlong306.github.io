@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1000px) {
+  .CV,
+  .showLeft,
+  .showRight,
+  .Tittle,
+  .print {
+    width: auto !important;
+    float: none !important;
+  }
+  .LeftCol {
+    width: 33% !important;
+  }
+  .RightCol {
+    width: 67% !important;
+  }
+  .head {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .CV,
+  .LeftCol,
+  .RightCol,
+  .showLeft,
+  .showRight,
+  [class*="time"]::after {
+    width: 100% !important;
+  }
+}
