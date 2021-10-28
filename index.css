@@ -8,6 +8,7 @@
   --colorIconLeftCol:invert(71%) sepia(6%) saturate(115%) hue-rotate(201deg) brightness(90%) contrast(86%);
   --colorProgressLeftCol:rgba(255, 255, 255, 0.19);
   --colorDeterminateLeftCol:#78909c;
+  --colorDeterminateCricleLeftCol:invert(71%) sepia(6%) saturate(115%) hue-rotate(201deg)  brightness(90%) contrast(86%);
   /* end Left Col */
   --colorRightColH1:rgba(0, 0, 0, 0.7);
   --colorRightColDescription:rgba(63, 61, 60, 0.71);
