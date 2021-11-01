@@ -113,7 +113,7 @@ var listTool = [
         language: "",
         time:"",
         description: "",
-        link:"https://github.com/thienlong306/tool/DocNew/index.html",
+        link:"https://thienlong306.github.io/tool/DocNew/index.html",
     }
 ]
 // end data
