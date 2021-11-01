@@ -107,3 +107,13 @@ var listProject = [
     },
 ]
 // end data
+var listTool = [
+    {
+        name: "DocNew",
+        language: "",
+        time:"",
+        description: "",
+        link:"https://github.com/thienlong306/tool/DocNew/index.html",
+    }
+]
+// end data

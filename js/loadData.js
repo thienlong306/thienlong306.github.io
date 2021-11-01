@@ -90,3 +90,24 @@ for (let index = 0; index < listInterestes.length; index++) {
     getListSkill.appendChild(element);
 }
 // end listInterestes
+for (let index = 0; index < listTool.length; index++) {
+    var input = ` 
+    <div class="headline time${index}" >${listTool[index].name}</div>
+                    <div class="subheadline">${listTool[index].language}</div>
+                    <div class="info">
+                    <div>Mô tả: ${listTool[index].description}</div>
+                    <a style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listTool[index].link}','_blank')" ">${listTool[index].link}</a>
+                    </div>
+    <style>
+    .headline.time${index}::after {
+        content: "${listTool[index].time}";
+        float: right;
+    }
+    </style>`
+    var element = document.createElement('div');
+    element.className = "block";
+    element.innerHTML = input;
+    var getListSkill = document.getElementById("listTool");
+    getListSkill.appendChild(element);
+}
+// end Tool
