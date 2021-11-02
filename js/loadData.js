@@ -95,7 +95,7 @@ for (let index = 0; index < listTool.length; index++) {
     <div class="headline timeTool${index}" >${listTool[index].name}</div>
                     <div class="subheadline">${listTool[index].language}</div>
                     <div class="info">
-                    <div>${listTool[index].description}</div>
+                    <div> ${listTool[index].description}</div>
                     <a style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listTool[index].link}','_blank')" ">${listTool[index].link}</a>
                     </div>
     <style>
