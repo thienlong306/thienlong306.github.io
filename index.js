@@ -18,7 +18,7 @@ var listContact = [
     },
     {
         icon: "Phone.svg",
-        content: `<a href="tel:0886869244">0886869244</a>`,
+        content: `<a href="tel:0886869***">0886869***</a>`,
     },
     {
         icon: "email.svg",
