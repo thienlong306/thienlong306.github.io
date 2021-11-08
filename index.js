@@ -105,6 +105,13 @@ var listProject = [
         description: "Xây dựng các tính năng cơ bản của một website bán hàng bằng PHP.",
         link:"https://github.com/thienlong306/WebsiteBanHoa",
     },
+    {
+        name: "Lập trình OOP cơ bản",
+        language: "Java",
+        time:"28/11 - 11/12/2019",
+        description: "Xây dựng ứng dụng OOP cơ bản để xử lý dữ liệu trên file txt.",
+        link:"https://github.com/thienlong306/OOP_Basic",
+    },
 ]
 // end data
 var listTool = [
@@ -115,5 +122,50 @@ var listTool = [
         description: "",
         link:"https://thienlong306.github.io/tool/DocNew/Test.html",
     }
+]
+// end data
+var listDocument = [
+    {
+        name: "Công nghệ phần mềm",
+        language: "",
+        time:"",
+        description: "",
+        link:"https://github.com/thienlong306/Cong_nghe_phan_mem",
+    },
+    {
+        name: "Quản trị mạng",
+        language: "",
+        time:"",
+        description: "",
+        link:"https://github.com/thienlong306/Lab_Quan_Tri_Mang",
+    },
+    {
+        name: "Thiết kế giao diện",
+        language: "",
+        time:"",
+        description: "",
+        link:"https://github.com/thienlong306/HCI",
+    },
+    {
+        name: "Phân tích thiết kế hệ thống thông tin",
+        language: "",
+        time:"",
+        description: "",
+        link:"https://github.com/thienlong306/PhanTichThietKeHeThongThongTin_QuanLyBanGiay",
+    },
+    {
+        name: "PPNC khoa học trong Công nghệ thông tin",
+        language: "",
+        time:"",
+        description: "",
+        link:"https://github.com/thienlong306/PPNCKH",
+    },
+    {
+        name: "Phân tích thiết kế hướng đối tượng",
+        language: "",
+        time:"",
+        description: "",
+        link:"https://github.com/thienlong306/PTTK_HDT",
+    },
 ]
 // end data

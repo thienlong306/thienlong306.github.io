@@ -111,3 +111,24 @@ for (let index = 0; index < listTool.length; index++) {
     getListSkill.appendChild(element);
 }
 // end Tool
+for (let index = 0; index < listDocument.length; index++) {
+    var input = ` 
+    <div class="headline timeDocument${index}" >${listDocument[index].name}</div>
+                    <div class="subheadline">${listDocument[index].language}</div>
+                    <div class="info">
+                    <div>${listDocument[index].description}</div>
+                    <a style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listDocument[index].link}','_blank')" ">${listDocument[index].link}</a>
+                    </div>
+    <style>
+    .headline.timeDocument${index}::after {
+        content: "${listDocument[index].time}";
+        float: right;
+    }
+    </style>`
+    var element = document.createElement('div');
+    element.className = "block";
+    element.innerHTML = input;
+    var getListSkill = document.getElementById("listDocument");
+    getListSkill.appendChild(element);
+}
+// end Document
