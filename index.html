@@ -1,99 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <!-- Bootstrap CSS -->
-    <meta name="description" content="Hồ sơ xin việc CV Phan Đồng Thiên Long Công nghệ thông tin IT Front-end Back-end">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta
+      name="description"
+      content="Hồ sơ xin việc CV Phan Đồng Thiên Long Công nghệ thông tin IT Front-end Back-end"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- My -->
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="css/loading.css">
-    <link rel="stylesheet" href="css/leftCol.css">
-    <link rel="stylesheet" href="css/rightCol.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/print.css">
-    <link rel="shortcut icon" href="img/icom.svg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/loading.css" />
+    <link rel="stylesheet" href="css/leftCol.css" />
+    <link rel="stylesheet" href="css/rightCol.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/print.css" />
+    <link rel="shortcut icon" href="img/icom.svg" type="image/x-icon" />
     <title>MyCV</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="background_loading" id="background_loading">
-        <section class="loading">
-            <span class="img"><img src="img/icom.svg" alt=""></span>
-            <span class="loading__anim"></span>
-        </section>
+      <section class="loading">
+        <span class="img"><img src="img/icom.svg" alt="" /></span>
+        <span class="loading__anim"></span>
+      </section>
     </div>
     <div class="CV">
-        <div class="LeftCol">
-            <div class="mySelfPic" id="avatar"></div>
-            <div class="Tittle">Thông Tin Liên Hệ</div>
-            <div class="listContact" id="listContact">
-                <!-- load listContact -->
-            </div>
-            <!-- end contact -->
-            <div class="Tittle">Kỹ Năng</div>
-            <div class="listSkill" id="listSkill">
-                <!-- load listSkill -->
-            </div>
-            <!-- end skill -->
-            <div class="Tittle HidePrint">Số lượt xem</div>
-            <div class="checkTraffic HidePrint">
-                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                <div class="elfsight-app-d90e044d-0c0a-4d1c-80e7-2bc7e8853af7"></div>
-            </div>
-             <!-- end check traffic -->
+      <div class="LeftCol">
+        <div class="mySelfPic" id="avatar"></div>
+        <div class="Tittle">Thông Tin Liên Hệ</div>
+        <div class="listContact" id="listContact">
+          <!-- load listContact -->
         </div>
-        <div class="RightCol">
-            <div class="head">
-                <div class="Tittle" id="Tittle">
-                    <!-- load about -->
-                </div>
-                <!-- <div class="print">
+        <!-- end contact -->
+        <div class="Tittle">Kỹ Năng</div>
+        <div class="listSkill" id="listSkill">
+          <!-- load listSkill -->
+        </div>
+        <!-- end skill -->
+        <div class="Tittle HidePrint">Số lượt xem</div>
+        <div class="checkTraffic HidePrint">
+          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+          <div class="elfsight-app-d90e044d-0c0a-4d1c-80e7-2bc7e8853af7"></div>
+        </div>
+        <!-- end check traffic -->
+      </div>
+      <div class="RightCol">
+        <div class="head">
+          <div class="Tittle" id="Tittle">
+            <!-- load about -->
+          </div>
+          <!-- <div class="print">
                     <button onclick="window.print()">In CV</button>
                     <button onclick="location.href='document/MyCV.pdf'">Tải CV</button>
                 </div> -->
-            </div>
-
-            <div class="show">
-                <div class="showLeft">
-                    <div class="headlineTitle">Học vấn</div>
-                    <div class="listEducation" id="listEducation">
-                        <!-- load listEducation -->
-                    </div>
-                    <div class="headlineTitle HidePrint">Tool</div>
-                    <div class="listTool HidePrint" id="listTool">
-                        <!-- load listTool -->
-                    </div>
-                    <div class="headlineTitle HidePrint">Báo cáo và Lab</div>
-                    <div class="listDocument HidePrint" id="listDocument">
-                        <!-- load listDocument -->
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="headlineTitle">Dự án</div>
-                    <div class="listProject" id="listProject">
-                        <!-- load listEducation -->
-                    </div>
-                    <div class="headlineTitle">Sở thích</div>
-                    <div class="listInterestes" id="listInterestes">
-                        <!-- load listInterestes -->
-                    </div>
-                </div>
-            </div>
-            <!-- end show -->
         </div>
-    </div>
 
+        <div class="show">
+          <div class="showLeft">
+            <div class="headlineTitle">Học vấn</div>
+            <div class="listEducation" id="listEducation">
+              <!-- load listEducation -->
+            </div>
+            <div class="headlineTitle HidePrint">Tool</div>
+            <div class="listTool HidePrint" id="listTool">
+              <!-- load listTool -->
+            </div>
+            <div class="headlineTitle HidePrint">Báo cáo và Lab</div>
+            <div class="listDocument HidePrint" id="listDocument">
+              <!-- load listDocument -->
+            </div>
+          </div>
+          <div class="showRight">
+            <div class="headlineTitle">Dự án</div>
+            <div class="listProject" id="listProject">
+              <!-- load listEducation -->
+            </div>
+            <div class="headlineTitle">Sở thích</div>
+            <div class="listInterestes" id="listInterestes">
+              <!-- load listInterestes -->
+            </div>
+          </div>
+        </div>
+        <!-- end show -->
+      </div>
+      <!-- Appzi: Capture Insightful Feedback -->
+      <script async src="https://w.appzi.io/w.js?token=iwaqM"></script>
+      <!-- End Appzi -->
+      
+    </div>
+    <!-- end CV -->
     <!-- Optional JavaScript -->
     <!-- <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script> -->
     <!-- My -->
     <script src="index.js"></script>
     <script src="js/loadData.js"></script>
-
-</body>
-
+  </body>
 </html>
