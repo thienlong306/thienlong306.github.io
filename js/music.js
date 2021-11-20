@@ -143,5 +143,15 @@ $(audio).bind("ended",function(e){
   $('.next').trigger("click");
 });
 
+var promise = audio.play();
+
+if (promise !== undefined) {
+  promise.then(_ => {
+    // Autoplay started!
+  }).catch(error => {
+    // Autoplay was prevented.
+    // Show a "Play" button so that user can start playback.
+  });
+}
 
 });
