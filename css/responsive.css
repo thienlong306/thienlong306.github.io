@@ -16,6 +16,13 @@
   .head {
     display: block !important;
   }
+  .audio-player {
+    /* position: relative; */
+    width: auto !important;
+    margin: auto !important;
+    display: inline-block;
+    margin: 10px 0px !important;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -24,7 +31,9 @@
   .RightCol,
   .showLeft,
   .showRight,
+  .audio-player
   [class*="time"]::after {
     width: 100% !important;
   }
+  
 }
