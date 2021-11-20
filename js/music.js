@@ -143,14 +143,9 @@ $(audio).bind("ended",function(e){
   $('.next').trigger("click");
 });
 
-var resp = audio.play();
-
-if (resp!== undefined) {
-    resp.then(_ => {
-        // autoplay starts!
-    }).catch(error => {
-       //show error
-    });
-}
+$('body').mousemove(function (e) { 
+  // values: e.clientX, e.clientY, e.pageX, e.pageY
+  audio.play();
+});
 
 });
