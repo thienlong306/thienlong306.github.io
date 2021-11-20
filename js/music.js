@@ -143,9 +143,4 @@ $(audio).bind("ended",function(e){
   $('.next').trigger("click");
 });
 
-$('body').mousemove(function (e) { 
-  // values: e.clientX, e.clientY, e.pageX, e.pageY
-  audio.play();
-});
-
 });
