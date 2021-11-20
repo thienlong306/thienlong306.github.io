@@ -142,10 +142,15 @@ $('.progress').click(function (e) {
 $(audio).bind("ended",function(e){
   $('.next').trigger("click");
 });
-var trigger = setInterval(function(e){
-  $('.play').trigger("click");
-},0)
-setTimeout(function(e){
-  clearInterval(trigger);
-},3000)
+
+var resp = audio.play();
+
+if (resp!== undefined) {
+    resp.then(_ => {
+        // autoplay starts!
+    }).catch(error => {
+       //show error
+    });
+}
+
 });
