@@ -79,4 +79,7 @@
 .audio-player .progress-bar {
   background-color: #16151c;
 }
+.audio-player .h5, h5 {
+  font-size: inherit !important;
+}
 
