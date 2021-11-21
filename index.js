@@ -170,6 +170,8 @@ var listDocument = [
 ]
 // end data
 var listSongs = [
-    { song: "Gracie Abrams - Rockland (Official Lyric Video)", musician: "Gracie Abrams" },
+    { song: "Gracie Abrams - Rockland", musician: "Gracie Abrams" },
+    { song: "My Name - Hwang Sang Jun (황상준)", musician: "Swervy & Jeminn" },
+    { song: "CALL ME IN YOUR SUMMER", musician: "SHE IS SUMMER" },
   ];
 //end music
