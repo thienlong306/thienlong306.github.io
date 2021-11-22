@@ -27,8 +27,8 @@
 .audio-player .holder {
   padding: 10px 20px;
   display: table;
-  float: right;
-  width: 76%;
+  /* float: right; */
+  width: 100%;
   background: white;
   border-radius: 5px;
   height: 94px;
