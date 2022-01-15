@@ -99,6 +99,13 @@ var listProject = [
         link:"https://github.com/thienlong306/Quan_Ly_Ban_Hang_Thoi_Trang",
     },
     {
+        name: "Calculator",
+        language: "HTML/CSS/JS",
+        time:"14/1/2022",
+        description: "Máy tính bỏ túi online cơ bản.",
+        link:"https://thienlong306.github.io/Calculator/",
+    }, 
+    {
         name: "Website Bán Hoa Tươi",
         language: "PHP",
         time:"20/5 - 17/6/2020",
