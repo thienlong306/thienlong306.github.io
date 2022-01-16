@@ -20,7 +20,7 @@ var listContact = [
   },
   {
     icon: "Phone.svg",
-    content: `<a href="tel:0886869***">0886869***</a>`,
+    content: `<a href="tel:0886869244">0886869244</a>`,
   },
   {
     icon: "email.svg",
@@ -113,14 +113,14 @@ var listSkill2 = [
     description: "JQuery",
   },
   {
-    name: "Database: ",
-    time: "",
-    description: "MySQL, SQL Server",
-  },
-  {
     name: "Java SE: ",
     time: "",
     description: "Java core, OOP, Exception Handling, JDBC",
+  },
+  {
+    name: "Database: ",
+    time: "",
+    description: "MySQL, SQL Server",
   },
   {
     name: "Testing: ",
@@ -135,6 +135,14 @@ var listSkill2 = [
 ];
 
 var listProject = [
+  {
+    name: "Calculator",
+    language: "HTML/CSS/JS",
+    time: "14/1/2022",
+    description: "Máy tính bỏ túi online cơ bản.",
+    link: "https://thienlong306.github.io/Calculator/",
+    hide: "",
+  },
   {
     name: "Quản Lý Tour Du Lịch",
     language: "Java",
@@ -151,14 +159,6 @@ var listProject = [
     description:
       "Xây dựng các chức năng thêm, xóa , sửa, tìm kiếm, in phiếu hóa đơn, nhập và xuất file excel.",
     link: "https://github.com/thienlong306/Quan_Ly_Ban_Hang_Thoi_Trang",
-    hide: "",
-  },
-  {
-    name: "Calculator",
-    language: "HTML/CSS/JS",
-    time: "14/1/2022",
-    description: "Máy tính bỏ túi online cơ bản.",
-    link: "https://thienlong306.github.io/Calculator/",
     hide: "",
   },
   {
