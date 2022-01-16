@@ -136,6 +136,14 @@ var listSkill2 = [
 
 var listProject = [
   {
+    name: "Music-Player",
+    language: "HTML/CSS/JS Bootstrap JQuery",
+    time: "16/1/2022",
+    description: "Music Player online cơ bản",
+    link: "https://thienlong306.github.io/Music-Player/",
+    hide: "",
+  },
+  {
     name: "Calculator",
     language: "HTML/CSS/JS",
     time: "14/1/2022",
