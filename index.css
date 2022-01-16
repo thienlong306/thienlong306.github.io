@@ -1,53 +1,54 @@
-:root{
-  --colorBackGroudBody:silver;
-  --colorA:rgba(255, 255, 255, 0.54);
-  --colorAHover:rgba(255, 255, 255, 0.705);
+:root {
+  --colorBackGroudBody: silver;
+  --colorA: rgba(255, 255, 255, 0.54);
+  --colorAHover: rgba(255, 255, 255, 0.705);
   /* end CV */
-  --colorBackGroudLeftCol:#16151c;
-  --colorLeftCol:rgba(255, 255, 255, 0.54);
-  --colorIconLeftCol:invert(71%) sepia(6%) saturate(115%) hue-rotate(201deg) brightness(90%) contrast(86%);
-  --colorProgressLeftCol:rgba(255, 255, 255, 0.19);
-  --colorDeterminateLeftCol:#78909c;
-  --colorDeterminateCricleLeftCol:invert(71%) sepia(6%) saturate(115%) hue-rotate(201deg)  brightness(90%) contrast(86%);
+  --colorBackGroudLeftCol: #16151c;
+  --colorLeftCol: rgba(255, 255, 255, 0.54);
+  --colorIconLeftCol: invert(71%) sepia(6%) saturate(115%) hue-rotate(201deg)
+    brightness(90%) contrast(86%);
+  --colorProgressLeftCol: rgba(255, 255, 255, 0.19);
+  --colorDeterminateLeftCol: #78909c;
+  --colorDeterminateCricleLeftCol: invert(71%) sepia(6%) saturate(115%)
+    hue-rotate(201deg) brightness(90%) contrast(86%);
   /* end Left Col */
-  --colorRightColH1:rgba(0, 0, 0, 0.7);
-  --colorRightColDescription:rgba(63, 61, 60, 0.71);
-  --colorRightColHeadLine:#3f3d3c;
-  --colorRightColBLock:white;
-  --colorRightColSubheadline:#a29f9f;
+  --colorRightColH1: rgba(0, 0, 0, 0.7);
+  --colorRightColDescription: rgba(63, 61, 60, 0.71);
+  --colorRightColHeadLine: #3f3d3c;
+  --colorRightColBLock: white;
+  --colorRightColSubheadline: #a29f9f;
   /* end Right Col */
-  --colorLoadingBackGroud:silver;
-  --colorLoadingAnim1:black;
-  --colorLoadingAnim2:#6c757d;
+  --colorLoadingBackGroud: silver;
+  --colorLoadingAnim1: black;
+  --colorLoadingAnim2: #6c757d;
   /* end loading */
-  --colorLinkProject1:#969696;
-  --colorLinkProject2:#252525;
+  --colorLinkProject1: #969696;
+  --colorLinkProject2: #252525;
 }
 * {
-    margin: 0;
-    padding: 0;
-    border-radius: 3px;
-  }
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-    background: var(--colorBackGroudBody);
-    word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: var(--colorBackGroudBody);
+  word-wrap: break-word;
+}
 
-  }
-  
-  .CV {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-  }
-  a {
-    color: var(--colorA);
-  }
-  a:hover {
-    color: var(--colorAHover);
-    text-decoration: none;
-  }
+.CV {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+a {
+  color: var(--colorA);
+}
+a:hover {
+  color: var(--colorAHover);
+  text-decoration: none;
+}
 
-  /* end CV */
+/* end CV */

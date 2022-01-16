@@ -28,4 +28,7 @@
     a {
       text-decoration: none !important;
     }
+    body>:last-child{
+      display: none;
+    }
   }

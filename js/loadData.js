@@ -1,5 +1,5 @@
 for (let index = 0; index < listEducation.length; index++) {
-    var input = ` 
+  var input = ` 
     <div class="headline timeedu${index}" >${listEducation[index].name}</div>
                     <div class="subheadline">${listEducation[index].department}</div>
                     <div class="info">
@@ -10,46 +10,44 @@ for (let index = 0; index < listEducation.length; index++) {
         content: "${listEducation[index].time}";
         float: right;
     }
-    </style>`
-    var element = document.createElement('div');
-    element.className = "block";
-    element.innerHTML = input;
-    var getListSkill = document.getElementById("listEducation");
-    getListSkill.appendChild(element);
+    </style>`;
+  var element = document.createElement("div");
+  element.className = "block";
+  element.innerHTML = input;
+  var getListSkill = document.getElementById("listEducation");
+  getListSkill.appendChild(element);
 }
 // end Education
 for (let index = 0; index < listSkill.length; index++) {
-    var input = ` <span>${listSkill[index].name}</span>
-    <div class="progress">
-        <div class="determinate" style="width: ${listSkill[index].progress}%;">
-            <div class="cricle"><img src="img/circle.svg" alt="" class="filter"></div>
-        </div>
-    </div>`
-    var element = document.createElement('div');
-    element.className = "skill";
-    element.innerHTML = input;
-    var getListSkill = document.getElementById("listSkill");
-    getListSkill.appendChild(element);
+  var input = ` <span class='nameSkill'>${listSkill[index].name}</span>
+    <span class="progressSkill">
+    ${listSkill[index].progress}
+    </span>`;
+  var element = document.createElement("div");
+  element.className = "skill";
+  element.innerHTML = input;
+  var getListSkill = document.getElementById("listSkill");
+  getListSkill.appendChild(element);
 }
-var element = document.createElement('div');
+var element = document.createElement("div");
 element.className = "skill lastSkill";
 element.innerHTML = lastSkill;
 var lastSkill = document.getElementById("listSkill");
 lastSkill.appendChild(element);
 // end Skill
 for (let index = 0; index < listContact.length; index++) {
-    var input = `
+  var input = `
     <div class="icon"><img src="img/${listContact[index].icon}" alt="" class="filter"></div>
-    <div class="text"><span>${listContact[index].content}</span></div>`
-    var element = document.createElement('div');
-    element.className = "item";
-    element.innerHTML = input;
-    var getListContact = document.getElementById("listContact");
-    getListContact.appendChild(element);
+    <div class="text"><span>${listContact[index].content}</span></div>`;
+  var element = document.createElement("div");
+  element.className = "item";
+  element.innerHTML = input;
+  var getListContact = document.getElementById("listContact");
+  getListContact.appendChild(element);
 }
 // end Contact
 for (let index = 0; index < listProject.length; index++) {
-    var input = ` 
+  var input = ` 
     <div class="headline time${index}" >${listProject[index].name}</div>
                     <div class="subheadline">${listProject[index].language}</div>
                     <div class="info">
@@ -61,15 +59,16 @@ for (let index = 0; index < listProject.length; index++) {
         content: "${listProject[index].time}";
         float: right;
     }
-    </style>`
-    var element = document.createElement('div');
-    element.className = "block";
-    element.innerHTML = input;
-    var getListSkill = document.getElementById("listProject");
-    getListSkill.appendChild(element);
+    </style>`;
+  var element = document.createElement("div");
+  element.className = `block ${listProject[index].hide}`;
+  element.class
+  element.innerHTML = input;
+  var getListSkill = document.getElementById("listProject");
+  getListSkill.appendChild(element);
 }
 // end Project
-var element = document.createElement('span');
+var element = document.createElement("span");
 element.innerHTML = `<h1>${about[0].name}</h1>
 <div class="description">${about[0].department}</div>
 <span class="about">${about[0].about}</span>`;
@@ -77,21 +76,33 @@ var inputAbout = document.getElementById("Tittle");
 inputAbout.appendChild(element);
 // end about
 for (let index = 0; index < listInterestes.length; index++) {
-    var input = ` 
+  var input = ` 
     <div class="headline">${listInterestes[index].name}</div>
                     <div class="subheadline">${listInterestes[index].time}</div>
                     <div class="info">
                     ${listInterestes[index].description}
-                    </div>`
-    var element = document.createElement('div');
-    element.className = "block";
-    element.innerHTML = input;
-    var getListSkill = document.getElementById("listInterestes");
-    getListSkill.appendChild(element);
+                    </div>`;
+  var element = document.createElement("div");
+  element.className = "block";
+  element.innerHTML = input;
+  var getListSkill = document.getElementById("listInterestes");
+  getListSkill.appendChild(element);
 }
 // end listInterestes
-for (let index = 0; index < listTool.length; index++) {
+for (let index = 0; index < listSkill2.length; index++) {
     var input = ` 
+      <span class="headline">${listSkill2[index].name}</span>
+                      <span class="info">
+                      ${listSkill2[index].description}
+                      </span>`;
+    var element = document.createElement("div");
+    element.innerHTML = input;
+    var getListSkill = document.getElementById("listSkill2");
+    getListSkill.appendChild(element);
+  }
+  // end listSkill2
+for (let index = 0; index < listTool.length; index++) {
+  var input = ` 
     <div class="headline timeTool${index}" >${listTool[index].name}</div>
                     <div class="subheadline">${listTool[index].language}</div>
                     <div class="info">
@@ -103,16 +114,16 @@ for (let index = 0; index < listTool.length; index++) {
         content: "${listTool[index].time}";
         float: right;
     }
-    </style>`
-    var element = document.createElement('div');
-    element.className = "block";
-    element.innerHTML = input;
-    var getListSkill = document.getElementById("listTool");
-    getListSkill.appendChild(element);
+    </style>`;
+  var element = document.createElement("div");
+  element.className = "block";
+  element.innerHTML = input;
+  var getListSkill = document.getElementById("listTool");
+  getListSkill.appendChild(element);
 }
 // end Tool
 for (let index = 0; index < listDocument.length; index++) {
-    var input = ` 
+  var input = ` 
     <div class="headline timeDocument${index}" >${listDocument[index].name}</div>
                     <div class="subheadline">${listDocument[index].language}</div>
                     <div class="info">
@@ -124,11 +135,11 @@ for (let index = 0; index < listDocument.length; index++) {
         content: "${listDocument[index].time}";
         float: right;
     }
-    </style>`
-    var element = document.createElement('div');
-    element.className = "block";
-    element.innerHTML = input;
-    var getListSkill = document.getElementById("listDocument");
-    getListSkill.appendChild(element);
+    </style>`;
+  var element = document.createElement("div");
+  element.className = "block";
+  element.innerHTML = input;
+  var getListSkill = document.getElementById("listDocument");
+  getListSkill.appendChild(element);
 }
 // end Document
