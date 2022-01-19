@@ -115,7 +115,7 @@ var listSkill2 = [
   {
     name: "Java SE: ",
     time: "",
-    description: "Java core, OOP, Exception Handling, JDBC",
+    description: "Java core, OOP, Exception Handling, JDBC, Networking, Multithreading",
   },
   {
     name: "Database: ",
