@@ -152,6 +152,14 @@ var listProject = [
     hide: "",
   },
   {
+    name: "Email Server",
+    language: "Java",
+    time: "18/11 - 23/12/2021",
+    description: "Xây Dựng Hệ Thống Mail Server bằng Java Socket",
+    link: "https://github.com/thienlong306/EmailServer",
+    hide: "",
+  },
+  {
     name: "Quản Lý Tour Du Lịch",
     language: "Java",
     time: "13/3 - 15/3/2021",
