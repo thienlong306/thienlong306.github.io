@@ -94,5 +94,12 @@ div#listInterestes {
   display: flex;
   flex-wrap: wrap;
 }
-
+.groupProject {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.black{
+  background-color: #16151c;
+}
 /* end righcol */

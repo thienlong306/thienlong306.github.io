@@ -142,6 +142,7 @@ var listProject = [
     description: "Music Player online cơ bản",
     link: "https://thienlong306.github.io/Music-Player/",
     hide: "",
+    tag: "Website"
   },
   {
     name: "Calculator",
@@ -150,6 +151,7 @@ var listProject = [
     description: "Máy tính bỏ túi online cơ bản.",
     link: "https://thienlong306.github.io/Calculator/",
     hide: "",
+    tag: "Website"
   },
   {
     name: "Email Server",
@@ -158,6 +160,7 @@ var listProject = [
     description: "Xây Dựng Hệ Thống Mail Server bằng Java Socket",
     link: "https://github.com/thienlong306/EmailServer",
     hide: "",
+    tag: "Java"
   },
   {
     name: "Quản Lý Tour Du Lịch",
@@ -167,6 +170,7 @@ var listProject = [
       "Xây dựng ứng dụng theo mô hình 3 lớp. Quản lý tour, đoàn, khách hàng, nhân viên, chi phí, địa điểm, trình trạng đoàn và thống kê.",
     link: "https://github.com/thienlong306/QuanLyTourDuLich_XDMHPL",
     hide: "",
+    tag: "Java"
   },
   {
     name: "Quản Lý Bán Hàng Thời Trang",
@@ -176,6 +180,7 @@ var listProject = [
       "Xây dựng các chức năng thêm, xóa , sửa, tìm kiếm, in phiếu hóa đơn, nhập và xuất file excel.",
     link: "https://github.com/thienlong306/Quan_Ly_Ban_Hang_Thoi_Trang",
     hide: "",
+    tag: "Java"
   },
   {
     name: "Website Bán Hoa Tươi",
@@ -185,6 +190,7 @@ var listProject = [
       "Xây dựng các tính năng cơ bản của một website bán hàng bằng PHP.",
     link: "https://github.com/thienlong306/WebsiteBanHoa",
     hide: "HidePrint",
+    tag: "Website"
   },
   {
     name: "Lập trình OOP cơ bản",
@@ -193,6 +199,7 @@ var listProject = [
     description: "Xây dựng ứng dụng OOP cơ bản để xử lý dữ liệu trên file txt.",
     link: "https://github.com/thienlong306/OOP_Basic",
     hide: "HidePrint",
+    tag: "Java"
   },
 ];
 // end data

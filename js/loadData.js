@@ -47,7 +47,7 @@ for (let index = 0; index < listContact.length; index++) {
 }
 // end Contact
 for (let index = 0; index < listProject.length; index++) {
-  var input = ` 
+  var input = `
     <div class="headline time${index}" >${listProject[index].name}</div>
                     <div class="subheadline">${listProject[index].language}</div>
                     <div class="info">
@@ -60,8 +60,8 @@ for (let index = 0; index < listProject.length; index++) {
         float: right;
     }
     </style>`;
-  var element = document.createElement("div");
-  element.className = `block ${listProject[index].hide}`;
+  var element = document.createElement("li");
+  element.className = `block ${listProject[index].hide} ${listProject[index].tag}`;
   element.class
   element.innerHTML = input;
   var getListSkill = document.getElementById("listProject");
@@ -143,3 +143,24 @@ for (let index = 0; index < listDocument.length; index++) {
   getListSkill.appendChild(element);
 }
 // end Document
+$('.JAVA').click(function (e) { 
+  e.preventDefault();
+  $('.Website').hide("slow");
+  $('.Java').show("slow");
+  $('.black').removeClass('black');
+  $(this).addClass('black');
+});
+$('.WEBSITE').click(function (e) { 
+  e.preventDefault();
+  $('.Java').hide("slow");
+  $('.Website').show("slow");
+  $('.black').removeClass('black');
+  $(this).addClass('black');
+});
+$('.ALL').click(function (e){
+  e.preventDefault();
+  $('.Java').show("slow");
+  $('.Website').show("slow");
+  $('.black').removeClass('black');
+  $(this).addClass('black');
+})
