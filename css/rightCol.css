@@ -100,6 +100,6 @@ div#listInterestes {
   align-items: center;
 }
 .black{
-  background-color: #16151c;
+  background-color: var(--colorBackGroudLeftCol);
 }
 /* end righcol */
