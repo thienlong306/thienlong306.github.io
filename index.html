@@ -1,67 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Bootstrap CSS -->
-    <meta
-      name="description"
-      content="Hồ sơ xin việc CV Phan Đồng Thiên Long Công nghệ thông tin IT Front-end Back-end"
-    />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- My -->
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="css/loading.css" />
-    <link rel="stylesheet" href="css/leftCol.css" />
-    <link rel="stylesheet" href="css/rightCol.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/print.css" />
-    <link rel="stylesheet" href="css/music.css" />
-    <link rel="shortcut icon" href="img/icom.svg" type="image/x-icon" />
-    <title>MyCV</title>
-  </head>
 
-  <body>
-    <div class="background_loading" id="background_loading">
-      <section class="loading">
-        <span class="img"><img src="img/icom.svg" alt="" /></span>
-        <span class="loading__anim"></span>
-      </section>
-    </div>
-    <div class="CV">
-      <div class="LeftCol">
-        <div class="mySelfPic" id="avatar"></div>
-        <div class="Tittle">Thông Tin Liên Hệ</div>
-        <div class="listContact" id="listContact">
-          <!-- load listContact -->
-        </div>
-        <!-- end contact -->
-        <!-- <div class="Tittle">Kỹ Năng</div> -->
-        <div class="listSkill" id="listSkill">
-          <!-- load listSkill -->
-        </div>
-        <!-- end skill -->
-        <div class="Tittle HidePrint">Số lượt xem</div>
-        <div class="checkTraffic HidePrint">
-          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-          <div class="elfsight-app-d90e044d-0c0a-4d1c-80e7-2bc7e8853af7"></div>
-        </div>
-        <!-- end check traffic -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS -->
+  <meta name="description" content="Hồ sơ xin việc CV Phan Đồng Thiên Long Công nghệ thông tin IT Front-end Back-end" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- My -->
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="css/loading.css" />
+  <link rel="stylesheet" href="css/leftCol.css" />
+  <link rel="stylesheet" href="css/rightCol.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/print.css" />
+  <link rel="stylesheet" href="css/music.css" />
+  <link rel="shortcut icon" href="img/icom.svg" type="image/x-icon" />
+  <title>MyCV</title>
+</head>
+
+<body>
+  <div class="background_loading" id="background_loading">
+    <section class="loading">
+      <span class="img"><img src="img/icom.svg" alt="" /></span>
+      <span class="loading__anim"></span>
+    </section>
+  </div>
+  <div class="CV">
+    <div class="LeftCol">
+      <div class="mySelfPic" id="avatar"></div>
+      <div class="Tittle">Thông Tin Liên Hệ</div>
+      <div class="listContact" id="listContact">
+        <!-- load listContact -->
       </div>
-      <div class="RightCol">
-        <div class="head">
-          <div class="Tittle" id="Tittle">
-            <!-- load about -->
-          </div>
-          <!-- <div class="print">
+      <!-- end contact -->
+      <!-- <div class="Tittle">Kỹ Năng</div> -->
+      <div class="listSkill" id="listSkill">
+        <!-- load listSkill -->
+      </div>
+      <!-- end skill -->
+      <div class="Tittle HidePrint">Số lượt xem</div>
+      <div class="checkTraffic HidePrint">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-d90e044d-0c0a-4d1c-80e7-2bc7e8853af7"></div>
+      </div>
+      <!-- end check traffic -->
+    </div>
+    <div class="RightCol">
+      <div class="head">
+        <div class="Tittle" id="Tittle">
+          <!-- load about -->
+        </div>
+        <!-- <div class="print">
                     <button onclick="window.print()">In CV</button>
                     <button onclick="location.href='document/MyCV.pdf'">Tải CV</button>
                 </div> -->
-          <!-- <div class="audio-player HidePrint">
+        <!-- <div class="audio-player HidePrint">
             <audio allow="autoplay" src="" id="audio"></audio>
             <div class="picture"><img class="imgMusic" src="" alt="" /></div>
             <div class="holder">
@@ -112,58 +107,63 @@
                     </div>
             </div>
           </div> -->
-          <!-- End music -->
-        </div>
-        <div class="show">
-          <div class="showLeft">
-            <div class="headlineTitle">Học vấn</div>
-            <div class="listEducation" id="listEducation">
-              <!-- load listEducation -->
-            </div>
-            <div class="headlineTitle HidePrint">Tool</div>
-            <div class="listTool HidePrint" id="listTool">
-              <!-- load listTool -->
-            </div>
-            <div class="headlineTitle HidePrint">Báo cáo và Lab</div>
-            <div class="listDocument HidePrint" id="listDocument">
-              <!-- load listDocument -->
-            </div>
-          </div>
-          <div class="showRight">
-            <div class="groupProject">
-              <div class="headlineTitle">Dự án</div>
-              <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-secondary ALL black">ALL</button>
-                <button type="button" class="btn btn-secondary JAVA">JAVA</button>
-                <button type="button" class="btn btn-secondary WEBSITE">WEBSITE</button>
-              </div>
-            </div>
-            <ul class="listProject" id="listProject">
-              <!-- load listProject -->
-            </ul>
-            <div class="headlineTitle">Skill</div>
-            <div class="listSkill2 block" id="listSkill2">
-              <!-- load listSkill2 -->
-            </div>
-            <div class="headlineTitle HidePrint">Sở thích</div>
-            <div class="listInterestes HidePrint" id="listInterestes">
-              <!-- load listInterestes -->
-            </div>
-          </div>
-        </div>
-        <!-- end show -->
+        <!-- End music -->
       </div>
-      <!-- Appzi: Capture Insightful Feedback -->
-      <script async src="https://w.appzi.io/w.js?token=iwaqM"></script>
-      <!-- End Appzi -->
+      <div class="show">
+        <div class="showLeft">
+          <div class="headlineTitle">Học vấn</div>
+          <div class="listEducation" id="listEducation">
+            <!-- load listEducation -->
+          </div>
+          <div class="headlineTitle HidePrint">Tool</div>
+          <div class="listTool HidePrint" id="listTool">
+            <!-- load listTool -->
+          </div>
+          <div class="headlineTitle HidePrint">Báo cáo và Lab</div>
+          <div class="listDocument HidePrint" id="listDocument">
+            <!-- load listDocument -->
+          </div>
+          <div id="fb-root"></div>
+          <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0" nonce="gL8Jzzeh"></script>
+          <div class="fb-comments" data-href="https://thienlong306.github.io/" data-width="" data-numposts="4"></div>
+        </div>
+        <div class="showRight">
+          <div class="groupProject">
+            <div class="headlineTitle">Dự án</div>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary ALL black">ALL</button>
+              <button type="button" class="btn btn-secondary JAVA">JAVA</button>
+              <button type="button" class="btn btn-secondary WEBSITE">WEBSITE</button>
+            </div>
+          </div>
+          <ul class="listProject" id="listProject">
+            <!-- load listProject -->
+          </ul>
+          <div class="headlineTitle">Skill</div>
+          <div class="listSkill2 block" id="listSkill2">
+            <!-- load listSkill2 -->
+          </div>
+          <div class="headlineTitle HidePrint">Sở thích</div>
+          <div class="listInterestes HidePrint" id="listInterestes">
+            <!-- load listInterestes -->
+          </div>
+        </div>
+      </div>
+      <!-- end show -->
     </div>
-    <!-- end CV -->
-    <!-- Optional JavaScript -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <!-- My -->
-    <script src="index.js"></script>
-    <script src="js/loadData.js"></script>
-    <script src="js/music.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-  </body>
+    <!-- Appzi: Capture Insightful Feedback -->
+    <script async src="https://w.appzi.io/w.js?token=iwaqM"></script>
+    <!-- End Appzi -->
+  </div>
+  <!-- end CV -->
+  <!-- Optional JavaScript -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- My -->
+  <script src="index.js"></script>
+  <script src="js/loadData.js"></script>
+  <script src="js/music.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+</body>
+
 </html>
