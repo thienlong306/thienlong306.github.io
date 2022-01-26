@@ -100,17 +100,7 @@ var listSkill2 = [
   {
     name: "Front-end: ",
     time: "",
-    description: "HTML, CSS, JavaScript",
-  },
-  {
-    name: "CSS Framework:",
-    time: "",
-    description: "Bootstrap",
-  },
-  {
-    name: "JavaScript library:",
-    time: "",
-    description: "JQuery",
+    description: "HTML, CSS, JavaScript, JQuery, Bootstrap",
   },
   {
     name: "Java SE: ",
