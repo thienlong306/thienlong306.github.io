@@ -179,7 +179,7 @@ var listProject = [
     description:
       "Xây dựng các tính năng cơ bản của một website bán hàng bằng PHP.",
     link: "https://github.com/thienlong306/WebsiteBanHoa",
-    hide: "HidePrint",
+    hide: "",
     tag: "Website"
   },
   {
@@ -188,7 +188,7 @@ var listProject = [
     time: "28/11 - 11/12/2019",
     description: "Xây dựng ứng dụng OOP cơ bản để xử lý dữ liệu trên file txt.",
     link: "https://github.com/thienlong306/OOP_Basic",
-    hide: "HidePrint",
+    hide: "",
     tag: "Java"
   },
 ];

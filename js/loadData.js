@@ -48,7 +48,8 @@ for (let index = 0; index < listContact.length; index++) {
 // end Contact
 for (let index = 0; index < listProject.length; index++) {
   var input = `
-    <div class="headline time${index}" >${listProject[index].name}</div>
+                    <div class="removeProject">X</div>
+                    <div class="headline time${index}" >${listProject[index].name}</div>
                     <div class="subheadline">${listProject[index].language}</div>
                     <div class="info">
                     <div>Mô tả: ${listProject[index].description}</div>
@@ -164,3 +165,7 @@ $('.ALL').click(function (e){
   $('.black').removeClass('black');
   $(this).addClass('black');
 })
+$('.removeProject').click(function (e) { 
+  e.preventDefault();
+  $(this).parent().hide("slow");
+});

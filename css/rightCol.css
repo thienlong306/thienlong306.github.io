@@ -55,6 +55,7 @@ button {
 }
 
 .CV .RightCol .block {
+  position: relative;
   margin: 10px 10px;
   background: var(--colorRightColBLock);
   padding: 15px;
@@ -101,5 +102,21 @@ div#listInterestes {
 }
 .black{
   background-color: var(--colorBackGroudLeftCol );
+}
+.removeProject {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  opacity: 0;
+}
+.removeProject:hover{
+  opacity: 1;
+}
+.removePJ{
+  opacity: 0;
+  visibility: hidden;
+  display: none;
 }
 /* end righcol */
