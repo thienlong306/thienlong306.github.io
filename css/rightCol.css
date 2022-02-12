@@ -119,4 +119,15 @@ div#listInterestes {
   visibility: hidden;
   display: none;
 }
+.autoTrans {
+  width: 50%;
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+}
+iframe#\:1\.container {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
 /* end righcol */

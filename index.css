@@ -37,6 +37,7 @@ body {
   width: 100%;
   background: var(--colorBackGroudBody);
   word-wrap: break-word;
+  top: 0!important;
 }
 
 .CV {

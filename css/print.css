@@ -31,7 +31,7 @@
     a {
       text-decoration: none !important;
     }
-    body>:last-child{
+    div[data-appzi-dom="1"]{
       display: none;
     }
   }
