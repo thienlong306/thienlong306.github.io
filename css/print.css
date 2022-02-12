@@ -1,4 +1,4 @@
- @media print {
+   @media print {
     .CV,
     .showLeft,
     .showRight,
@@ -13,6 +13,9 @@
       width: 33% !important;
       height: 3508px !important;
       overflow: hidden;
+    }
+    .LeftCol .mySelfPic{
+      height: 10% !important;
     }
     .RightCol {
       width: 67% !important;
