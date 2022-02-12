@@ -71,7 +71,7 @@ var listEducation = [
     name: "Trường Đại Học Sài Gòn",
     time: "2018 - Hiện tại",
     department: "Công nghệ thông tin",
-    description: "Học chuyên ngành Kỹ Thuật Phần Mềm.",
+    description: "GPA: 6.52/10",
   },
 ];
 var listInterestes = [
