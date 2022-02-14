@@ -69,7 +69,7 @@ var lastSkill = "";
 var listEducation = [
   {
     name: "Trường Đại Học Sài Gòn",
-    time: "2018 - Hiện tại",
+    time: "2018 - 2022",
     department: "Công nghệ thông tin",
     description: "GPA: 6.52/10",
   },
