@@ -4,19 +4,19 @@ document.getElementById("avatar").style.backgroundImage =
 var about = [
   {
     name: "Phan Đồng Thiên Long",
-    department: "Nhà phát triển phần mềm",
+    department: "Backend Engineer Intern",
     about:
-      "Mong muốn có thể trở thành một Fullstack Developer trong tương lai.",
+      "Finding an internship to learn advanced knowledge. Practical experience then become fresher then junior and finally a fullstack developer within the next 2 or 3 years.",
   },
 ];
 var listContact = [
   {
     icon: "Account_circle.svg",
-    content: "24/4/2000 Ninh Thuận",
+    content: "24/4/2000 Ninh Thuan",
   },
   {
     icon: "Home.svg",
-    content: "Quận 12 TP. Hồ Chí Minh",
+    content: "District 12 City. Ho Chi Minh",
   },
   {
     icon: "Phone.svg",
@@ -68,9 +68,9 @@ var listContact = [
 var lastSkill = "";
 var listEducation = [
   {
-    name: "Trường Đại Học Sài Gòn",
+    name: "Sai Gon University",
     time: "2018 - 2022",
-    department: "Công nghệ thông tin",
+    department: "Information Technology",
     description: "GPA: 6.52/10",
   },
 ];
@@ -81,7 +81,7 @@ var listInterestes = [
     description: "",
   },
   {
-    name: "Thiết Kế",
+    name: "Design",
     time: "",
     description: "",
   },
@@ -91,7 +91,7 @@ var listInterestes = [
     description: "",
   },
   {
-    name: "Nhạc",
+    name: "Music",
     time: "",
     description: "",
   },
@@ -129,7 +129,7 @@ var listProject = [
     name: "Music-Player",
     language: "HTML/CSS/JS Bootstrap JQuery",
     time: "16/1/2022",
-    description: "Music Player online cơ bản",
+    description: "Build a Music Player.",
     link: "https://thienlong306.github.io/Music-Player/",
     hide: "",
     tag: "Website"
@@ -138,7 +138,7 @@ var listProject = [
     name: "Calculator",
     language: "HTML/CSS/JS",
     time: "14/1/2022",
-    description: "Máy tính bỏ túi online cơ bản.",
+    description: "Make a Simple Calculator.",
     link: "https://thienlong306.github.io/Calculator/",
     hide: "",
     tag: "Website"
@@ -147,46 +147,46 @@ var listProject = [
     name: "Email Server",
     language: "Java",
     time: "18/11 - 23/12/2021",
-    description: "Xây Dựng Hệ Thống Mail Server bằng Java Socket",
+    description: "Description: Building a Mail Server System with Java Socket.",
     link: "https://github.com/thienlong306/EmailServer",
     hide: "",
     tag: "Java"
   },
   {
-    name: "Quản Lý Tour Du Lịch",
+    name: "Tour Manager",
     language: "Java",
     time: "13/3 - 15/3/2021",
     description:
-      "Xây dựng ứng dụng theo mô hình 3 lớp. Quản lý tour, đoàn, khách hàng, nhân viên, chi phí, địa điểm, trình trạng đoàn và thống kê.",
+      "Build an MVC Application. Manage tours, groups, customers, employees, costs, locations, group status and statistics.",
     link: "https://github.com/thienlong306/QuanLyTourDuLich_XDMHPL",
     hide: "",
     tag: "Java"
   },
   {
-    name: "Quản Lý Bán Hàng Thời Trang",
+    name: "Fashion Sales Manager",
     language: "Java",
     time: "1/6 - 24/6/2020",
     description:
-      "Xây dựng các chức năng thêm, xóa , sửa, tìm kiếm, in phiếu hóa đơn, nhập và xuất file excel.",
+      "Build functions to add, delete, edit, search, print invoices, import and export excel files.",
     link: "https://github.com/thienlong306/Quan_Ly_Ban_Hang_Thoi_Trang",
     hide: "",
     tag: "Java"
   },
   {
-    name: "Website Bán Hoa Tươi",
+    name: "Shop Flower",
     language: "PHP",
     time: "20/5 - 17/6/2020",
     description:
-      "Xây dựng các tính năng cơ bản của một website bán hàng bằng PHP.",
+      "Build the basic features of a sales website by PHP.",
     link: "https://github.com/thienlong306/WebsiteBanHoa",
     hide: "",
     tag: "Website"
   },
   {
-    name: "Lập trình OOP cơ bản",
+    name: "Basic OOP Programming",
     language: "Java",
     time: "28/11 - 11/12/2019",
-    description: "Xây dựng ứng dụng OOP cơ bản để xử lý dữ liệu trên file txt.",
+    description: "Build a basic OOP application to process data on txt files.",
     link: "https://github.com/thienlong306/OOP_Basic",
     hide: "",
     tag: "Java"

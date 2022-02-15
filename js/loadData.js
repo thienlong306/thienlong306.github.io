@@ -52,7 +52,7 @@ for (let index = 0; index < listProject.length; index++) {
                     <div class="headline time${index}" >${listProject[index].name}</div>
                     <div class="subheadline">${listProject[index].language}</div>
                     <div class="info">
-                    <div>Mô tả: ${listProject[index].description}</div>
+                    <div>Description: ${listProject[index].description}</div>
                     <a style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listProject[index].link}','_blank')" ">${listProject[index].link}</a>
                     </div>
     <style>
