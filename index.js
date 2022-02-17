@@ -147,7 +147,7 @@ var listProject = [
     name: "Email Server",
     language: "Java",
     time: "18/11 - 23/12/2021",
-    description: "Description: Building a Mail Server System with Java Socket.",
+    description: "Building a Mail Server System with Java Socket.",
     link: "https://github.com/thienlong306/EmailServer",
     hide: "",
     tag: "Java"
