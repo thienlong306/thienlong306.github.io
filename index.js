@@ -4,7 +4,7 @@ document.getElementById("avatar").style.backgroundImage =
 var about = [
   {
     name: "Phan Đồng Thiên Long",
-    department: "Backend Engineer Intern",
+    department: "SOFTWARE ENGINEER INTERN",
     about:
       "Finding an internship to learn advanced knowledge. Practical experience then become fresher then junior and finally a fullstack developer within the next 2 or 3 years.",
   },
