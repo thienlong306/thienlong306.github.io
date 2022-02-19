@@ -49,4 +49,7 @@
     /* width: 76%; */
     width: auto !important;
   }
+  .CV{
+    display: block !important;
+  }
 }
