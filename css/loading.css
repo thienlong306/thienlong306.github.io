@@ -8,6 +8,7 @@
     justify-content: center;
     animation: blur 2s forwards;
     z-index: 1;
+
 }
 @keyframes blur{
     0%{    display: flex;
@@ -24,6 +25,7 @@
         visibility: hidden;
     }
 }
+
 .loading{
     display: flex;
     align-items: center;

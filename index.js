@@ -110,7 +110,7 @@ var listSkill2 = [
   {
     name: "Database: ",
     time: "",
-    description: "MySQL, SQL Server",
+    description: "MySQL, SQL Server, designing and developing databases.",
   },
   {
     name: "Testing: ",
@@ -123,12 +123,35 @@ var listSkill2 = [
     description: "Git(Github)",
   },
 ];
+var listObject = [
+  {
+    name: "",
+    time: "",
+    description: "Looking for work opportunities to broaden my horizons in related fields",
+  },
+  {
+    name: "",
+    time: "",
+    description: "Experience a professional working environment and accumulate more experience to develop yourself",
+  },
+  {
+    name: "",
+    time: "",
+    description: "Become a BackEnd developer after graduation.",
+  },
+  {
+    name: "",
+    time: "",
+    description: "Become a Fullstack developer in the future. (2-3 years later)"
+  },
+];
 
 var listProject = [
   {
     name: "Music-Player",
     language: "HTML/CSS/JS Bootstrap JQuery",
     time: "16/1/2022",
+    teamsize: "1",
     description: "Build a Music Player.",
     link: "https://thienlong306.github.io/Music-Player/",
     hide: "",
@@ -138,6 +161,7 @@ var listProject = [
     name: "Calculator",
     language: "HTML/CSS/JS",
     time: "14/1/2022",
+    teamsize: "1",
     description: "Make a Simple Calculator.",
     link: "https://thienlong306.github.io/Calculator/",
     hide: "",
@@ -145,17 +169,19 @@ var listProject = [
   },
   {
     name: "Email Server",
-    language: "Java",
+    language: "Java, TCP",
     time: "18/11 - 23/12/2021",
-    description: "Building a Mail Server System with Java Socket.",
+    teamsize: "1",
+    description: "Building a Mail Server System with Java Socket. Client: Send, Receive, Reply, Mark Spam, Schedule, Delete,... Server: Logs, Set data, Send, Loc,... Using Hybrid Encryption",
     link: "https://github.com/thienlong306/EmailServer",
     hide: "",
     tag: "Java"
   },
   {
     name: "Tour Manager",
-    language: "Java",
+    language: "Java, MySQL",
     time: "13/3 - 15/3/2021",
+    teamsize: "1",
     description:
       "Build an MVC Application. Manage tours, groups, customers, employees, costs, locations, group status and statistics.",
     link: "https://github.com/thienlong306/QuanLyTourDuLich_XDMHPL",
@@ -164,8 +190,9 @@ var listProject = [
   },
   {
     name: "Fashion Sales Manager",
-    language: "Java",
+    language: "Java, MySQL",
     time: "1/6 - 24/6/2020",
+    teamsize: "1",
     description:
       "Build functions to add, delete, edit, search, print invoices, import and export excel files.",
     link: "https://github.com/thienlong306/Quan_Ly_Ban_Hang_Thoi_Trang",
@@ -174,8 +201,9 @@ var listProject = [
   },
   {
     name: "Shop Flower",
-    language: "PHP",
+    language: "PHP, MySQL",
     time: "20/5 - 17/6/2020",
+    teamsize: "3",
     description:
       "Build the basic features of a sales website by PHP.",
     link: "https://github.com/thienlong306/WebsiteBanHoa",
@@ -186,6 +214,7 @@ var listProject = [
     name: "Basic OOP Programming",
     language: "Java",
     time: "28/11 - 11/12/2019",
+    teamsize: "1",
     description: "Build a basic OOP application to process data on txt files.",
     link: "https://github.com/thienlong306/OOP_Basic",
     hide: "",

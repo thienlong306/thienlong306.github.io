@@ -52,7 +52,8 @@ for (let index = 0; index < listProject.length; index++) {
                     <div class="headline time${index}" >${listProject[index].name}</div>
                     <div class="subheadline">${listProject[index].language}</div>
                     <div class="info">
-                    <div>Description: ${listProject[index].description}</div>
+                    <div><span class="headline">Team Size</span>: ${listProject[index].teamsize} people </div>
+                    <div><span class="headline">Description</span>: ${listProject[index].description}</div>
                     <a style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listProject[index].link}','_blank')" ">${listProject[index].link}</a>
                     </div>
     <style>
@@ -102,6 +103,18 @@ for (let index = 0; index < listSkill2.length; index++) {
     getListSkill.appendChild(element);
   }
   // end listSkill2
+for (let index = 0; index < listObject.length; index++) {
+    var input = ` 
+      <span class="headline">${listObject[index].name}</span>
+                      <span class="info">  • 
+                      ${listObject[index].description}
+                      </span>`;
+    var element = document.createElement("div");
+    element.innerHTML = input;
+    var getListSkill = document.getElementById("listObject");
+    getListSkill.appendChild(element);
+  }
+  // end listObject
 for (let index = 0; index < listTool.length; index++) {
   var input = ` 
     <div class="headline timeTool${index}" >${listTool[index].name}</div>

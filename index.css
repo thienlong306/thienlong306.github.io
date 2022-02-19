@@ -41,12 +41,9 @@ body {
 }
 
 .CV {
-<<<<<<< HEAD
-  display: flex;
-=======
   height: 100%;
   width: 100%;
->>>>>>> parent of f62c3db (update print)
+  display: flex;
   overflow-x: hidden;
 }
 a {
