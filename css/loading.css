@@ -24,6 +24,16 @@
         visibility: hidden;
     }
 }
+<<<<<<< HEAD
+=======
+.CV{
+  animation: setRespon 2s ;
+}
+@-webkit-keyframes setRespon{
+    100%{  height: auto;
+        width: auto;}
+}
+>>>>>>> parent of 9d03de3 (fix something)
 .loading{
     display: flex;
     align-items: center;
