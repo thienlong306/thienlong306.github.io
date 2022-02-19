@@ -172,7 +172,7 @@ var listProject = [
     language: "Java, TCP",
     time: "18/11 - 23/12/2021",
     teamsize: "1",
-    description: "Building a Mail Server System with Java Socket. Client: Send, Receive, Reply, Mark Spam, Schedule, Delete,... Server: Logs, Set data, Send, Loc,... Using Hybrid Encryption",
+    description: "Building a Mail Server System with Java Socket. Client: Send, Receive, Reply, Mark Spam, Schedule, Delete,... Server: Logs, Set data, Send, Lock,... Using Hybrid Encryption",
     link: "https://github.com/thienlong306/EmailServer",
     hide: "",
     tag: "Java"
