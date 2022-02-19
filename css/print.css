@@ -34,10 +34,13 @@
     div[data-appzi-dom="1"]{
       display: none;
     }
+<<<<<<< HEAD
     .CV .RightCol .show .showRight {
       position: absolute;
       width: 100% !important;
       /* float: right; */
       left: 0;
   }
+=======
+>>>>>>> parent of f62c3db (update print)
   }
