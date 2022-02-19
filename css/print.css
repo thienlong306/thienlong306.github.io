@@ -8,13 +8,14 @@
       float: none !important;
       overflow: hidden;
     }
+  
     .LeftCol {
       width: 33% !important;
-      height: auto !important;
+      height: 3508px !important;
       overflow: hidden;
     }
     .LeftCol .mySelfPic{
-      height: 350px !important;
+      height: 10% !important;
     }
     .RightCol {
       width: 67% !important;
@@ -26,6 +27,7 @@
     .HidePrint {
       display: none !important;
     }
+    
     a {
       text-decoration: none !important;
     }
@@ -37,9 +39,5 @@
       width: 100% !important;
       /* float: right; */
       left: 0;
-  }
-  .CV {
-    height: auto !important;
-    width: auto !important;
   }
   }
