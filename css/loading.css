@@ -8,7 +8,6 @@
     justify-content: center;
     animation: blur 2s forwards;
     z-index: 1;
-
 }
 @keyframes blur{
     0%{    display: flex;
@@ -25,7 +24,13 @@
         visibility: hidden;
     }
 }
-
+.CV{
+  animation: setRespon 2s ;
+}
+@-webkit-keyframes setRespon{
+    100%{  height: auto;
+        width: auto;}
+}
 .loading{
     display: flex;
     align-items: center;
