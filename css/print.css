@@ -8,14 +8,13 @@
       float: none !important;
       overflow: hidden;
     }
-  
     .LeftCol {
       width: 33% !important;
-      height: 3508px !important;
+      height: auto !important;
       overflow: hidden;
     }
     .LeftCol .mySelfPic{
-      height: 10% !important;
+      height: 350px !important;
     }
     .RightCol {
       width: 67% !important;
@@ -27,11 +26,20 @@
     .HidePrint {
       display: none !important;
     }
-    
     a {
       text-decoration: none !important;
     }
     div[data-appzi-dom="1"]{
       display: none;
     }
+    .CV .RightCol .show .showRight {
+      position: absolute;
+      width: 100% !important;
+      /* float: right; */
+      left: 0;
+  }
+  .CV {
+    height: auto !important;
+    width: auto !important;
+  }
   }
