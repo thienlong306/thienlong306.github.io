@@ -3,6 +3,7 @@
   background-color: var(--colorBackGroudLeftCol);
   float: left;
   color: var(--colorLeftCol);
+  display: inline-table;
 }
 
 .LeftCol .mySelfPic {
