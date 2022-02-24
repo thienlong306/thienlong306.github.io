@@ -1,9 +1,10 @@
 for (let index = 0; index < listEducation.length; index++) {
   var input = ` 
     <div class="headline timeedu${index}" >${listEducation[index].name}</div>
-                    <div class="subheadline">${listEducation[index].department}</div>
                     <div class="info">
-                    <div>${listEducation[index].description}</div>
+                    <div class="subheadline"><span class="headline">Major</span>: ${listEducation[index].department}</div>
+                    <div><span class="headline">Coursework</span>: ${listEducation[index].description}</div>
+                    <div><span class="headline">Can Work</span>: ${listEducation[index].timework}</div>
                     </div>
     <style>
     .headline.timeedu${index}::after {
@@ -40,7 +41,7 @@ for (let index = 0; index < listContact.length; index++) {
     <div class="icon"><img src="img/${listContact[index].icon}" alt="" class="filter"></div>
     <div class="text"><span>${listContact[index].content}</span></div>`;
   var element = document.createElement("div");
-  element.className = "item";
+  element.className = `item ${listContact[index].hide}`;
   element.innerHTML = input;
   var getListContact = document.getElementById("listContact");
   getListContact.appendChild(element);
@@ -49,12 +50,11 @@ for (let index = 0; index < listContact.length; index++) {
 for (let index = 0; index < listProject.length; index++) {
   var input = `
                     <div class="removeProject">X</div>
-                    <div class="headline time${index}" >${listProject[index].name}</div>
-                    <div class="subheadline">${listProject[index].language}</div>
+                    <div class="headline time${index} nameProject" >${listProject[index].name}</div>
                     <div class="info">
-                    <div><span class="headline">Team Size</span>: ${listProject[index].teamsize} people </div>
+                    <div class=""><span class="headline">Tech stack</span>: ${listProject[index].language}</div>
                     <div><span class="headline">Description</span>: ${listProject[index].description}</div>
-                    <a style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listProject[index].link}','_blank')" ">${listProject[index].link}</a>
+                    <span class="headline">Github</span>: <a class="linkGit" style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listProject[index].link}','_blank')" ">${listProject[index].link}</a>
                     </div>
     <style>
     .headline.time${index}::after {

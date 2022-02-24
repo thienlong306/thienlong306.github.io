@@ -1,45 +1,62 @@
-   @media print {
-    .CV,
-    .showLeft,
-    .showRight,
-    .Tittle,
-    .print {
-      width: auto !important;
-      float: none !important;
-      overflow: hidden;
-    }
-    .LeftCol {
-      width: 33% !important;
-      height: auto !important;
-      overflow: hidden;
-    }
-    .LeftCol .mySelfPic{
-      height: 350px !important;
-    }
-    .RightCol {
-      width: 67% !important;
-    }
-    .head {
-      display: block !important;
-    }
-    .print,
-    .HidePrint {
-      display: none !important;
-    }
-    a {
-      text-decoration: none !important;
-    }
-    div[data-appzi-dom="1"]{
-      display: none;
-    }
-    .CV .RightCol .show .showRight {
-      position: absolute;
-      width: 100% !important;
-      /* float: right; */
-      left: 0;
+@media print { 
+  .CV,
+  .showLeft,
+  .showRight,
+  .Tittle,
+  .print {
+    width: auto !important;
+    float: none !important;
+    overflow: hidden;
+  }
+  .LeftCol {
+    width: 33% !important;
+    height: auto !important;
+    overflow: hidden;
+  }
+  .LeftCol .mySelfPic {
+    height: 350px !important;
+  }
+  .RightCol {
+    width: 67% !important;
+  }
+  .head {
+    display: block !important;
+  }
+  .print,
+  .HidePrint {
+    display: none !important;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  div[data-appzi-dom="1"] {
+    display: none;
+  }
+  .CV .RightCol .show .showRight {
+    position: absolute;
+    width: 100% !important;
+    left: 0;
+    margin-top: 10%;
   }
   .CV {
     height: auto !important;
     width: auto !important;
   }
+  .listObject {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
   }
+  div[class^="time"]::after{
+    content: "1" !important;
+  }
+  .linkGit{
+    color: #16151c !important;
+  }
+  .nameProject::after {
+    content: "" !important;
+}
+.text {
+  font-size: 17px !important;
+}
+}

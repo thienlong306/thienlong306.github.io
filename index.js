@@ -3,7 +3,7 @@ document.getElementById("avatar").style.backgroundImage =
 // end img
 var about = [
   {
-    name: "Phan Đồng Thiên Long",
+    name: "Long Thien Phan Dong",
     department: "SOFTWARE ENGINEER INTERN",
     about:
       "Finding an internship to learn advanced knowledge. Practical experience then become fresher then junior and finally a fullstack developer within the next 2 or 3 years.",
@@ -12,27 +12,38 @@ var about = [
 var listContact = [
   {
     icon: "Account_circle.svg",
-    content: "24/4/2000 Ninh Thuan",
+    content: "Long Thien Phan Dong",
+    hide:"",
   },
   {
     icon: "Home.svg",
     content: "District 12 City. Ho Chi Minh",
-  },
-  {
-    icon: "Phone.svg",
-    content: `<a href="tel:0886869244">0886869244</a>`,
+    hide:"HidePrint",
   },
   {
     icon: "email.svg",
     content: `<a href="mailto:phandongthienlong306@gmail.com">phandongthienlong306@gmail.com</a>`,
+    hide:"",
+  },
+  {
+    icon: "Phone.svg",
+    content: `<a href="tel:0886869244">0886869244</a>`,
+    hide:"",
   },
   {
     icon: "github.svg",
     content: `<a href="https://github.com/thienlong306">https://github.com/thienlong306</a>`,
+    hide:"",
   },
   {
     icon: "facebook-square.svg",
     content: `<a href="https://facebook.com/thienlong306">https://facebook.com/thienlong306</a>`,
+    hide:"HidePrint",
+  },
+  {
+    icon: "earth.svg",
+    content: `<a href="https://thienlong306.github.io/">https://thienlong306.github.io</a>`,
+    hide:"",
   },
 ];
 // var listSkill = [
@@ -69,9 +80,10 @@ var lastSkill = "";
 var listEducation = [
   {
     name: "Sai Gon University",
-    time: "2018 - 2022",
-    department: "Information Technology",
-    description: "GPA: 6.52/10",
+    time: "2018 - Anticipated Graduation: 9/2022",
+    department: "4th-year of Information Technology",
+    description: "Data Structure and Algorithms, Operating system, Networking, Network Administration, Database Management System, Distributed database.",
+    timework: "25h-30h/week (All day Monday, Thursday, Friday and Tuesday afternoon)"
   },
 ];
 var listInterestes = [
@@ -97,30 +109,31 @@ var listInterestes = [
   },
 ];
 var listSkill2 = [
+  
   {
-    name: "Front-end: ",
+    name: "Main Language:",
     time: "",
-    description: "HTML, CSS, JavaScript, JQuery, Bootstrap  ",
+    description: "Java",
   },
   {
-    name: "Java SE: ",
+    name: "Proficient:",
     time: "",
-    description: "Java core, OOP, Exception Handling, JDBC, Networking",
+    description: "HTML, CSS, JavaScript, SQL",
   },
   {
-    name: "Database: ",
+    name: "Familiar: ",
     time: "",
-    description: "MySQL, SQL Server, designing and developing databases.",
+    description: "PHP, JQuery, ReacJS, Bootstrap, Git, Selenium",
   },
   {
-    name: "Testing: ",
+    name: "Tools: ",
     time: "",
-    description: "JUnit, TestNG, Selenium",
+    description: "GitHub Desktop, Visual Studio, IntelliJ IDEA, Draw.io",
   },
   {
-    name: "Version control:",
+    name: "Languages:",
     time: "",
-    description: "Git(Github)",
+    description: "English",
   },
 ];
 var listObject = [
@@ -169,7 +182,7 @@ var listProject = [
   },
   {
     name: "Email Server",
-    language: "Java, TCP",
+    language: "Java, TCP/IP, Multithreading",
     time: "18/11 - 23/12/2021",
     teamsize: "1",
     description: "Building a Mail Server System with Java Socket. Client: Send, Receive, Reply, Mark Spam, Schedule, Delete,... Server: Logs, Set data, Send, Lock,... Using Hybrid Encryption",
@@ -179,7 +192,7 @@ var listProject = [
   },
   {
     name: "Tour Manager",
-    language: "Java, MySQL",
+    language: "Java, MySQL, JDBC",
     time: "13/3 - 15/3/2021",
     teamsize: "1",
     description:
@@ -190,7 +203,7 @@ var listProject = [
   },
   {
     name: "Fashion Sales Manager",
-    language: "Java, MySQL",
+    language: "Java, MySQL, JDBC",
     time: "1/6 - 24/6/2020",
     teamsize: "1",
     description:
