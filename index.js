@@ -131,6 +131,11 @@ var listSkill2 = [
     description: "GitHub Desktop, Visual Studio, IntelliJ IDEA, Draw.io",
   },
   {
+    name: "Soft Kills:",
+    time: "",
+    description: "Ability to work both independently and collaboratively. Eager to learn, pro-active attitude and self-motivated individual",
+  },
+  {
     name: "Languages:",
     time: "",
     description: "English",
