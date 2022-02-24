@@ -81,7 +81,7 @@ var listEducation = [
   {
     name: "Sai Gon University",
     time: "2018 - Anticipated Graduation: 9/2022",
-    department: "4th-year of Information Technology",
+    department: "4th-year of Software Engineering",
     description: "Data Structure and Algorithms, Operating system, Networking, Network Administration, Database Management System, Distributed database.",
     timework: "25h-30h/week (All day Monday, Thursday, Friday and Tuesday afternoon)"
   },
