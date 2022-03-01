@@ -123,12 +123,12 @@ var listSkill2 = [
   {
     name: "Familiar: ",
     time: "",
-    description: "PHP, JQuery, ReacJS, Redux, Bootstrap, Git, Selenium",
+    description: "JQuery, ReacJS, Bootstrap, Git, Selenium",
   },
   {
     name: "Tools: ",
     time: "",
-    description: "GitHub Desktop, Visual Studio, IntelliJ IDEA, Draw.io, Microsoft SQL Server, Xampp",
+    description: "GitHub Desktop, Visual Studio, IntelliJ IDEA, Draw.io, Microsoft SQL Server",
   },
   {
     name: "Soft Kills:",
