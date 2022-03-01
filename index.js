@@ -3,7 +3,7 @@ document.getElementById("avatar").style.backgroundImage =
 // end img
 var about = [
   {
-    name: "Long Thien Phan Dong",
+    name: "Phan Dong Thien Long",
     department: "SOFTWARE ENGINEER INTERN",
     about:
       "Finding an internship to learn advanced knowledge. Practical experience then become fresher then junior and finally a fullstack developer within the next 2 or 3 years.",
@@ -12,7 +12,7 @@ var about = [
 var listContact = [
   {
     icon: "Account_circle.svg",
-    content: "Long Thien Phan Dong",
+    content: "Phan Dong Thien Long",
     hide:"",
   },
   {
