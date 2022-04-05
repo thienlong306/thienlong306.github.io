@@ -54,7 +54,7 @@ for (let index = 0; index < listProject.length; index++) {
                     <div class="info">
                     <div class=""><span class="headline">Tech stack</span>: ${listProject[index].language}</div>
                     <div><span class="headline">Description</span>: ${listProject[index].description}</div>
-                    <span class="headline">Github</span>: <a class="linkGit" style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listProject[index].link}','_blank')" ">${listProject[index].link}</a>
+                    <span class="headline">${listProject[index].tag==="Java"?"Github":"Website"}</span>: <a class="linkGit" style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listProject[index].link}','_blank')" ">${listProject[index].link}</a>
                     </div>
     <style>
     .headline.time${index}::after {

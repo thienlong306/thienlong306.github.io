@@ -4,7 +4,7 @@ document.getElementById("avatar").style.backgroundImage =
 var about = [
   {
     name: "Phan Dong Thien Long",
-    department: "SOFTWARE ENGINEER INTERN",
+    department: "SOFTWARE Developer INTERN",
     about:
       "Finding an internship to learn advanced knowledge. Practical experience then become fresher then junior and finally a fullstack developer within the next 2 or 3 years.",
   },
@@ -123,7 +123,7 @@ var listSkill2 = [
   {
     name: "Familiar: ",
     time: "",
-    description: "JQuery, ReacJS, Bootstrap, Git, Selenium",
+    description: "SpringMVC, ReacJS, JQuery, Bootstrap, Git",
   },
   {
     name: "Tools: ",
@@ -135,11 +135,11 @@ var listSkill2 = [
     time: "",
     description: "Ability to work both independently and collaboratively. Eager to learn, pro-active attitude and self-motivated individual",
   },
-  {
-    name: "Languages:",
-    time: "",
-    description: "English",
-  },
+  // {
+  //   name: "Languages:",
+  //   time: "",
+  //   description: "English",
+  // },
 ];
 var listObject = [
   {
@@ -187,7 +187,7 @@ var listProject = [
   },
   {
     name: "Email Server",
-    language: "Java, TCP/IP, Multithreading",
+    language: "Java Swing, TCP/IP, Multithreading",
     time: "18/11 - 23/12/2021",
     teamsize: "1",
     description: "Building a Mail Server System with Java Socket. Client: Send, Receive, Reply, Mark Spam, Schedule, Delete,... Server: Logs, Set data, Send, Lock,... Using Hybrid Encryption",
@@ -197,7 +197,7 @@ var listProject = [
   },
   {
     name: "Tour Manager",
-    language: "Java, MySQL, JDBC",
+    language: "Java Swing, MySQL, JDBC",
     time: "13/3 - 15/3/2021",
     teamsize: "1",
     description:
@@ -208,7 +208,7 @@ var listProject = [
   },
   {
     name: "Fashion Sales Manager",
-    language: "Java, MySQL, JDBC",
+    language: "Java Swing, MySQL, JDBC",
     time: "1/6 - 24/6/2020",
     teamsize: "1",
     description:
