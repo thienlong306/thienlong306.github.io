@@ -3,8 +3,7 @@ for (let index = 0; index < listEducation.length; index++) {
     <div class="headline timeedu${index}" >${listEducation[index].name}</div>
                     <div class="info">
                     <div class="subheadline"><span class="headline">Major</span>: ${listEducation[index].department}</div>
-                    <div><span class="headline">Coursework</span>: ${listEducation[index].description}</div>
-                    <div><span class="headline">Can Work</span>: ${listEducation[index].timework}</div>
+                    <div><span class="headline">Coursework</span>: ${listEducation[index].description}</div>  
                     </div>
     <style>
     .headline.timeedu${index}::after {
@@ -54,7 +53,7 @@ for (let index = 0; index < listProject.length; index++) {
                     <div class="info">
                     <div class=""><span class="headline">Tech stack</span>: ${listProject[index].language}</div>
                     <div><span class="headline">Description</span>: ${listProject[index].description}</div>
-                    <span class="headline">${listProject[index].tag==="Java"?"Github":"Website"}</span>: <a class="linkGit" style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listProject[index].link}','_blank')" ">${listProject[index].link}</a>
+                    <span class="headline">${listProject[index].tag==="Java"?"Github":"Github"}</span>: <a class="linkGit" style="color:var(--colorLinkProject1);cursor:pointer" onmouseover="this.style.color='var(--colorLinkProject2)'" onmouseout="this.style.color='var(--colorLinkProject1)'" onclick="window.open('${listProject[index].link}','_blank')" ">${listProject[index].link}</a>
                     </div>
     <style>
     .headline.time${index}::after {
@@ -159,22 +158,33 @@ for (let index = 0; index < listDocument.length; index++) {
 // end Document
 $('.JAVA').click(function (e) { 
   e.preventDefault();
-  $('.Website').hide("slow");
+  $('.Reacjs').hide("slow");
+  $('.Php').hide("slow");
   $('.Java').show("slow");
   $('.black').removeClass('black');
   $(this).addClass('black');
 });
-$('.WEBSITE').click(function (e) { 
+$('.REACJS').click(function (e) { 
   e.preventDefault();
   $('.Java').hide("slow");
-  $('.Website').show("slow");
+  $('.Php').hide("slow");
+  $('.Reacjs').show("slow");
+  $('.black').removeClass('black');
+  $(this).addClass('black');
+});
+$('.PHP').click(function (e) { 
+  e.preventDefault();
+  $('.Java').hide("slow");
+  $('.Reacjs').hide("slow");
+  $('.Php').show("slow");
   $('.black').removeClass('black');
   $(this).addClass('black');
 });
 $('.ALL').click(function (e){
   e.preventDefault();
   $('.Java').show("slow");
-  $('.Website').show("slow");
+  $('.Reacjs').show("slow");
+  $('.Php').show("slow");
   $('.black').removeClass('black');
   $(this).addClass('black');
 })

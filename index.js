@@ -111,24 +111,34 @@ var listInterestes = [
 var listSkill2 = [
   
   {
-    name: "Main Language:",
+    name: "Main Language: ",
     time: "",
     description: "Java",
   },
   {
-    name: "Proficient:",
+    name: "Database: ",
     time: "",
-    description: "HTML, CSS, JavaScript, SQL",
+    description: "MySQL, SQL Server",
   },
   {
-    name: "Familiar: ",
+    name: "Back-end: ",
     time: "",
-    description: "SpringMVC, ReacJS, JQuery, Bootstrap, Git",
+    description: "Spring, Swing, JPA/Hibernate, Thymleaf, JSP",
+  },
+  {
+    name: "Front-end: ",
+    time: "",
+    description: "ReacJS, HTML/CSS/JavaScript, JQuery, Bootstrap",
+  },
+  {
+    name: "Knowledge: ",
+    time: "",
+    description: "Restful Api, Microservices, Redux, Docker, Data structures and algorithms, Git(GitHub)",
   },
   {
     name: "Tools: ",
     time: "",
-    description: "GitHub Desktop, Visual Studio, IntelliJ IDEA, Draw.io, Microsoft SQL Server",
+    description: "Visual Studio, IntelliJ IDEA, Elipse, Draw.io",
   },
   {
     name: "Personal Skills:",
@@ -166,25 +176,25 @@ var listObject = [
 
 var listProject = [
   {
-    name: "Music-Player",
-    language: "HTML/CSS/JS Bootstrap JQuery",
-    time: "16/1/2022",
+    name: "Spotifake",
+    language: "Reacjs Router Redux Bootstrap JQuery",
+    time: "16/2/2022-12/5/2022",
     teamsize: "1",
-    description: "Build a Music Player.",
-    link: "https://thienlong306.github.io/Music-Player/",
+    description: "Spotifake is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world.",
+    link: "https://github.com/thienlong306/Spotifake",
     hide: "",
-    tag: "Website"
+    tag: "Reacjs"
   },
-  {
-    name: "Calculator",
-    language: "HTML/CSS/JS",
-    time: "14/1/2022",
-    teamsize: "1",
-    description: "Make a Simple Calculator.",
-    link: "https://thienlong306.github.io/Calculator/",
-    hide: "",
-    tag: "Website"
-  },
+  // {
+  //   name: "Calculator",
+  //   language: "HTML/CSS/JS",
+  //   time: "14/1/2022",
+  //   teamsize: "1",
+  //   description: "Make a Simple Calculator.",
+  //   link: "https://thienlong306.github.io/Calculator",
+  //   hide: "",
+  //   tag: "Website"
+  // },
   {
     name: "Email Server",
     language: "Java Swing, TCP/IP, Multithreading",
@@ -198,7 +208,7 @@ var listProject = [
   {
     name: "Tour Manager",
     language: "Java Swing, MySQL, JDBC",
-    time: "13/3 - 15/3/2021",
+    time: "13/1 - 15/3/2021",
     teamsize: "1",
     description:
       "Build an MVC Application. Manage tours, groups, customers, employees, costs, locations, group status and statistics.",
@@ -209,7 +219,7 @@ var listProject = [
   {
     name: "Fashion Sales Manager",
     language: "Java Swing, MySQL, JDBC",
-    time: "1/6 - 24/6/2020",
+    time: "1/4 - 24/6/2020",
     teamsize: "1",
     description:
       "Build functions to add, delete, edit, search, print invoices, import and export excel files.",
@@ -220,24 +230,24 @@ var listProject = [
   {
     name: "Shop Flower",
     language: "PHP, MySQL",
-    time: "20/5 - 17/6/2020",
+    time: "20/4 - 17/6/2020",
     teamsize: "3",
     description:
       "Build the basic features of a sales website by PHP.",
     link: "https://github.com/thienlong306/WebsiteBanHoa",
     hide: "",
-    tag: "Website"
+    tag: "Php"
   },
-  {
-    name: "Basic OOP Programming",
-    language: "Java",
-    time: "28/11 - 11/12/2019",
-    teamsize: "1",
-    description: "Build a basic OOP application to process data on txt files.",
-    link: "https://github.com/thienlong306/OOP_Basic",
-    hide: "",
-    tag: "Java"
-  },
+  // {
+  //   name: "Basic OOP Programming",
+  //   language: "Java",
+  //   time: "28/11 - 11/12/2019",
+  //   teamsize: "1",
+  //   description: "Build a basic OOP application to process data on txt files.",
+  //   link: "https://github.com/thienlong306/OOP_Basic",
+  //   hide: "",
+  //   tag: "Java"
+  // },
 ];
 // end data
 var listTool = [
