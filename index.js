@@ -176,9 +176,19 @@ var listObject = [
 
 var listProject = [
   {
+    name: "RFID Book Library",
+    language: "Spring Boot, MySQL, JPA/Hibernate, Thymleaf, Jquery, Bootstrap",
+    time: "1/2/2022-10/5/2022",
+    teamsize: "1",
+    description: "This website helps you to find, borrow, and manage books easily, adopting the RFID system.",
+    link: "https://github.com/thienlong306/RFIDBookLibrary",
+    hide: "",
+    tag: "Java"
+  },
+  {
     name: "Mnist-KNN",
-    language: "Spring-Boot, Jquery, Bootstrap, ChartJs ",
-    time: "14/2/2022-29/5/2022",
+    language: "Spring Boot, Jquery, Bootstrap",
+    time: "14/2/2022-9/5/2022",
     teamsize: "1",
     description: "The MNIST dataset is a set of 70,000 small images of handwritten digits. Each image is 28x28 pixels, and each image is labeled with the digit it represents. The task is to train a k-NN classifier to recognize handwritten digits from the MNIST dataset.",
     link: "https://github.com/thienlong306/Mnist-KNN",
