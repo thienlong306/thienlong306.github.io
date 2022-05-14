@@ -190,5 +190,5 @@ $('.ALL').click(function (e){
 })
 $('.removeProject').click(function (e) { 
   e.preventDefault();
-  $(this).parent().hide("slow");
+  $(this).parent().remove();
 });
