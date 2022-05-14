@@ -128,7 +128,7 @@ var listSkill2 = [
   {
     name: "Front-end: ",
     time: "",
-    description: "ReacJS, HTML/CSS/JavaScript, JQuery, Bootstrap",
+    description: "ReacJS, HTML/CSS/JavaScript, JQuery, Bootstrap, Figma",
   },
   {
     name: "Knowledge: ",
@@ -176,8 +176,18 @@ var listObject = [
 
 var listProject = [
   {
+    name: "Mnist-KNN",
+    language: "Spring-Boot, Jquery, Bootstrap, ChartJs ",
+    time: "14/2/2022-29/5/2022",
+    teamsize: "1",
+    description: "The MNIST dataset is a set of 70,000 small images of handwritten digits. Each image is 28x28 pixels, and each image is labeled with the digit it represents. The task is to train a k-NN classifier to recognize handwritten digits from the MNIST dataset.",
+    link: "https://github.com/thienlong306/Mnist-KNN",
+    hide: "",
+    tag: "Java"
+  },
+  {
     name: "Spotifake",
-    language: "Reacjs Router Redux Bootstrap JQuery",
+    language: "Reacjs, Redux, Bootstrap, JQuery",
     time: "16/2/2022-12/5/2022",
     teamsize: "1",
     description: "Spotifake is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world.",
