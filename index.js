@@ -197,7 +197,7 @@ var listProject = [
   },
   {
     name: "Spotifake",
-    language: "Reacjs, Redux, Bootstrap, JQuery",
+    language: "Reacjs, Redux, Bootstrap, JQuery, Responsive design mobile",
     time: "16/2/2022-12/5/2022",
     teamsize: "1",
     description: "Spotifake is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world.",
@@ -205,16 +205,16 @@ var listProject = [
     hide: "",
     tag: "Reacjs"
   },
-  // {
-  //   name: "Calculator",
-  //   language: "HTML/CSS/JS",
-  //   time: "14/1/2022",
-  //   teamsize: "1",
-  //   description: "Make a Simple Calculator.",
-  //   link: "https://thienlong306.github.io/Calculator",
-  //   hide: "",
-  //   tag: "Website"
-  // },
+  {
+    name: "Calculator",
+    language: "HTML/CSS/JS",
+    time: "14/1/2022",
+    teamsize: "1",
+    description: "Make a Simple Calculator.",
+    link: "https://thienlong306.github.io/Calculator",
+    hide: "",
+    tag: "Website"
+  },
   {
     name: "Email Server",
     language: "Java Swing, TCP/IP, Multithreading",
@@ -224,6 +224,17 @@ var listProject = [
     link: "https://github.com/thienlong306/EmailServer",
     hide: "",
     tag: "Java"
+  },
+  {
+    name: "SGU Mobile App",
+    language: "Figma",
+    time: "13/6 - 21/10/2021",
+    teamsize: "4",
+    description:
+      "Design a mobile app UI/UX for the SGU website on Figma.",
+    link: "https://www.figma.com/proto/yb6z5JvtAiiLRN2IoFR6k5/App-SGU-(Copy)?node-id=1%3A3&starting-point-node-id=1%3A3",
+    hide: "",
+    tag: "Website"
   },
   {
     name: "Tour Manager",

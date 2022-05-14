@@ -36,7 +36,7 @@
     position: absolute;
     width: 100% !important;
     left: 0;
-    margin-top: 4%;
+    margin-top: 3% !important;
   }
   .CV {
     height: auto !important;
@@ -58,5 +58,8 @@
 }
 .text {
   font-size: 17px !important;
+}
+.CV .RightCol .block:nth-child(6){
+  margin-top: 100% !important;
 }
 }
